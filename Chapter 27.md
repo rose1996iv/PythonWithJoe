@@ -799,13 +799,6 @@ Maximum along axis 2
 [8 8]]
 ```
 </details>
----
-
-
-
-
-
-
 
 ### Problem 27.2 
 - Write a program to create an array of shape 5 x 4 containing elements 1 to 20. Find the sum of entire array as well as sums along each row and column. 
