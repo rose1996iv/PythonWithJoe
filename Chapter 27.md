@@ -778,6 +778,8 @@ print(np.max(a,axis = 1))
 print('Maximum along axis 2')
 print(np.max(a,axis = 2))
 ```
+</details>
+
 <details>
 <summary><b>Output</b></summary>
 
@@ -796,6 +798,7 @@ Maximum along axis 2
 [1 5]
 [8 8]]
 ```
+</details>
 ---
 
 
@@ -818,6 +821,7 @@ print(np.sum(a))
 print(np.sum(a, axis = 0))
 print(np.sum(a, axis = 1))
 ```
+</details>
 
 <details>
 <summary><b>Output</b></summary>
@@ -832,6 +836,7 @@ print(np.sum(a, axis = 1))
 [40 45 50 55]
 [6 22 38 54 70]
 ```
+</details>
 
 
 
@@ -859,6 +864,7 @@ print(b)
 c = a + b
 print(c)
 ```
+</details>
 
 <details>
 <summary><b>Output</b></summary>
@@ -871,6 +877,7 @@ print(c)
 [90. 80. 70. 60. 50. 40. 30. 20. 10. 0.]
 [93. 83. 73. 63. 53. 43. 33. 23. 13. 3.]
 ```
+</details>
 
 ### Problem 27.4
 
@@ -895,6 +902,7 @@ print(e)
 e[(2 < e) & (e < 8)] *= -1
 print(e)
 ```
+</details>
 
 <details>
 <summary><b>Output</b></summary>
@@ -912,6 +920,7 @@ print(e)
 [0 1 2 3 4 5 6 7 8 9 10]
 [0 1 2 -3 -4 -5 -6 -7 8 9 10]
 ```
+</details>
 
 ## Exercises
 
@@ -949,15 +958,19 @@ print(e)
     a11 = a1 + 2
     a12 = a1 ** 2
     ```
-- [c] Match The Following paris:
-    - (a) s = np.trace(a)               1. Statistical Operation
-    - (b) s = a.cumsum(axis = 1)        2. Linear Algebra Operation
-    - (c) a2 = np.copy(a1)              3. Deep copy operation 
-    - (d) print(a1 < 2)                 4. Corresponding ele.comparison
-    - (e) print(a1 > a2)                5. Comparison with one value
-    - (f) print(a[1:3[3:6]])            6. Bitwise Operation
-    - (g) a2 = invert(a1)               7. Slicing Operation 
-    
+- [C] Match The Following pairs:
+
+| Code / Function | Operation / Description |
+| :--- | :--- |
+| (a) `s = np.trace(a)` | 1. Statistical Operation |
+| (b) `s = a.cumsum(axis = 1)` | 2. Linear Algebra Operation |
+| (c) `a2 = np.copy(a1)` | 3. Deep copy operation |
+| (d) `print(a1 < 2)` | 4. Corresponding ele.comparison |
+| (e) `print(a1 > a2)` | 5. Comparison with one value |
+| (f) `print(a[1:3][3:6])` | 6. Bitwise Operation |
+| (g) `a2 = invert(a1)` | 7. Slicing Operation |
+ 
+ </details>
 
 
 
