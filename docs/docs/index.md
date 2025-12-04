@@ -20,7 +20,7 @@ This documentation is now available in **three languages**, making Python learni
 |----------|------|-------------|
 | 🇬🇧 **English** | `index.eng.md` | Complete English documentation |
 | 🇲🇲 **Myanmar (Burmese)** | `index.mm.md` | Myanmar language documentation (မြန်မာဘာသာ) |
-| 🇮🇳 **Hakha Chin** | `index.hk.md` | Hakha Chin language documentation |
+| 🦜 **Hakha Chin** | `index.hk.md` | Hakha Chin language documentation |
 
 ### How to Use Different Language Versions
 
