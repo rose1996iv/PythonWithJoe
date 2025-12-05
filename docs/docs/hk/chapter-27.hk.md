@@ -1,31 +1,53 @@
-CHAPTER 27
+# Chapter 27 Numpy Library
 
-# Numpy Library
+<div class="chapter-social-card">
+  <div class="chapter-info">
+    <div class="chapter-number">CHAPTER 27</div>
+    <h1 class="chapter-title">NumPy Library</h1>
+  </div>
+  <div class="chapter-logo">
+    <img src="/Let-Us-Python-Book-/Logo.png" alt="Joseph Logo">
+  </div>
+  <div class="chapter-social-links">
+    <a href="https://github.com/Joseph1997-eng" target="_blank" class="social-icon" title="GitHub">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/robinson-joseph-61734a17a/" target="_blank" class="social-icon" title="LinkedIn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+      </svg>
+    </a>
+    <a href="https://www.facebook.com/josephsaimonn" target="_blank" class="social-icon" title="Facebook">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+      </svg>
+    </a>
+  </div>
+</div>
 
-## Table of Contents (A Chung Ummi Pawl)
-- [Keynote (Biapi)](#keynote-biapi)
-- [27.1 Creation of Array (Array Sernak)](#271-creation-of-array-array-sernak)
-- [27.2 Creation of Filler Arrays (A Chung Thil Um Cia Array Sernak)](#272-creation-of-filler-arrays-a-chung-thil-um-cia-array-sernak)
-- [27.3 Array Attributes (Array Sining)](#273-array-attributes-array-sining)
-- [27.4 Array Operations (Array Tuahnak Pawl)](#274-array-operations-array-tuahnak-pawl)
-  - [27.4.1 Arithmetic Operations (Kanan Tuahnak)](#2741-arithmetic-operations-kanan-tuahnak)
-  - [27.4.2 Statistical Operations (Statistic Tuahnak)](#2742-statistical-operations-statistic-tuahnak)
-  - [27.4.3 Linear Algebra Operations (Linear Algebra Tuahnak)](#2743-linear-algebra-operations-linear-algebra-tuahnak)
-  - [27.4.4 Bitwise Operations (Bitwise Tuahnak)](#2744-bitwise-operations-bitwise-tuahnak)
-  - [27.4.5 Copying and Sorting (Copy Tuah le Remh)](#2745-copying-and-sorting-copy-tuah-le-remh)
-  - [27.4.6 Comparison (Tahchunhnak)](#2746-comparison-tahchunhnak)
-  - [27.4.7 Indexing and Slicing (Index Tuah le Hleh)](#2747-indexing-and-slicing-index-tuah-le-hleh)
-- [27.5 Array Manipulation (Array Sersiamnak)](#275-array-manipulation-array-sersiamnak)
-- [Problems (Harnak/Tuahding)](#problems-harnaktuahding)
-- [Exercises (Lentecelhnak)](#exercises-lentecelhnak)
+## A Biapi Mi (Keynote)
 
+- **Numpy** ti mi cu *Num*erical *Py*thon tiah a min a chuak mi a si. Hihi **Science** le **Engineering** lei buaibainak (problems) pawl tawlrelnak ah hman a tam ngaingai mi **library** pakhat a si.
+
+- Numpy nih a riantuan a ṭha tuk mi **multidimensional array object** a ngei i, array pawl cungah rian rannak tein a tuan khawh mi **methods** (tuahning) zong a ngei chih.
+
+- Cu riantuannak (operations) hna cu a tang lei bantuk an si:
+  - Kanan lei tuahnak (Mathematical)
+  - A hman le hman lo khiahnak (Logical)
+  - A pumrua / pungsan thlennak (Shape manipulation)
+  - A tluang tein remhnak (Sorting)
+  - Thimnak (Selecting)
+  - Data lak le chuahnak (I/O)
+  - Cazin zohnak (Statistical operations)
+  - Le a dangdang hna an si.
 ---
 
-## Keynote (Biapi)
+**Fianternak tlawmpal:**
 
-- Numpy cu Numerical Python tinak a si. Hi library hi science le engineering lei buaibainak phitnak ah hman a si. Hi nih hin a ttha mi multidimensional array object, le array cung ah rian rang tein tuah khawhnak lam a kan pek. Hi rian tuahnak ah mathematical, logical, shape manipulation, sorting, selecting, I/O, statistical operations, le a dangdang an i tel.
-
----
+*   **`Library`**: Programming ah hin, rian pakhatkhat ṭuan khawhnak ding caah ready-made in tuahcia mi code pawl an umnak hmun (collection) tinak a si. (Hakha ah `cattawt` tiah an ti khawh.)
+*   **`Array hmuitinh (object)`**: Data tampi kha dot (dimension) khat asiloah tampi in hrial (store) khawhnak caah tuahmi a si. Numpy array pawl hi a rang tuk in rian a ṭuan kho.
 
 ## 27.1 Creation of Array (Array Sernak)
 
@@ -351,196 +373,368 @@ print(d)                # [[3 7 6 9 0 3 1 5][1 5 2 4 1 1 1 1]] a print
 
 ---
 
-## Problems (Harnak/Tuahding)
+## Problems (Tuahding)
+
 ### Problem 27.1
-- Dimensions 4 x 2 x 3 a ngei mi 3D array sernak program tial. Values cheukhat in initialize (hramthawk) tuah. Axis kip i a maximum (ngan bik) kawl. 
+
+- Dimensions 4 x 2 x 3 a ngei mi 3D array sernak program tial. Values cheukhat in initialize (hramthawk) tuah. Axis kip i a maximum (ngan bik) kawl.
+
+  
 
 <details>
+
 <summary><b>Program</b></summary>
 
+  
+
 ```python
+
 import numpy as np
+
 a = np.array([[[3,7,6],[1,5,2]],[[1,2,4],[7,2,9]],[[1,0,0],[5,4,3]],[[8,1,4],[2,7,8]]])
+
 print('Maximum along axis 0')
+
 print(np.max(a,axis = 0))
+
 print('Maximum along axis 1')
+
 print(np.max(a,axis = 1))
+
 print('Maximum along axis 2')
+
 print(np.max(a,axis = 2))
+
 ```
+
 </details>
 
+  
+
 <details>
+
 <summary><b>Output</b></summary>
 
+  
+
 ```python
+
 #Maximum along axis 0
-[[8 7 6]
-[7 7 9]]
+
+[[8  7  6]
+
+[7  7  9]]
+
 #Maximum along axis 1
-[[3 7 6]
-[7 2 9]
-[5 4 3]
-[8 7 8]]
+
+[[3  7  6]
+
+[7  2  9]
+
+[5  4  3]
+
+[8  7  8]]
+
 #Maximum along axis 2
-[[7 5]
-[4 9]
-[1 5]
-[8 8]]
+
+[[7  5]
+
+[4  9]
+
+[1  5]
+
+[8  8]]
+
 ```
+
 </details>
+
 ---
+
 ### Problem 27.2
+
 - Shape 5 x 4 a ngei mi le elements 1 in 20 tiang a ngei mi array sernak program tial. Array dihlak i sum (fonh), row le column kip i sum kawl.
+
 <details>
+
 <summary><b>Program</b></summary>
 
+  
+
 ```python
+
 import numpy as np
+
 a = np.arange(20).reshape((5,4))
+
 print(a)
+
 print(np.sum(a))
+
 print(np.sum(a, axis = 0))
+
 print(np.sum(a, axis = 1))
+
 ```
+
+  
 
 </details>
 
+  
+
 <details>
+
 <summary><b>Output</b></summary>
 
+  
+
 ```python
-[[0 1 2 3]
-[4 5 6 7]
-[8 9 10 11]
-[12 13 14 15]
-[16 17 18 19]]
+
+[[0  1  2  3]
+
+[4  5  6  7]
+
+[8  9  10  11]
+
+[12  13  14  15]
+
+[16  17  18  19]]
+
 190
-[40 45 50 55]
-[6 22 38 54 70]
+
+[40  45  50  55]
+
+[6  22  38  54  70]
+
 ```
+
 </details>
 
-### Problem 27.3 
-- A tanglei rian hna tuahnak ding ah program tial: 
-    - Size 10 a ngei mi array a ser, a chung i element kip value 3 ah chiah. 
-    - Hi array le a chung i element pakhat i memory size kawl. 
-    - Size 10 a ngei mi array b ser, a chung i values cu 0 in 90 tiang aa khat te in a then mi si seh. - Array b i elements kha a let (reverse) in tuah. 
-    - Array a le b fonh law a result kha array c ah khon.
+  
+
+### Problem 27.3
+
+A tanglei rian hna tuahnak ding ah program tial:
+
+ - Size 10 a ngei mi array a ser, a chung i element kip value 3 ah
+   chiah. 
+  - Hi array le a chung i element pakhat i memory size kawl. 
+  - Size 10 a ngei mi array b ser, a chung i values cu 0 in 90 tiang aa khat
+   te in a then mi si seh. 
+  - Array b i elements kha a let (reverse) in tuah.
+
+Array a le b fonh law a result kha array c ah khon.
+
+  
 
 <details>
+
 <summary><b>Program</b></summary>
 
+  
+
 ```python
+
 import numpy as np
+
 a = np.full(10,3)
+
 print(a)
+
 print(a.nbytes)
+
 print(a.itemsize)
+
 b = np.linspace(0,90,10)
+
 print(b)
+
 b = b[::-1]
+
 print(b)
+
 c = a + b
+
 print(c)
+
 ```
+
 </details>
+
 <details><summary><b>Output</b></summary>
 
 ```python
-[3 3 3 3 3 3 3 3 3 3]
+
+[3  3  3  3  3  3  3  3  3  3]
+
 40
+
 4
+
 [0. 10. 20. 30. 40. 50. 60. 70. 80. 90.]
+
 [90. 80. 70. 60. 50. 40. 30. 20. 10. 0.]
+
 [93. 83. 73. 63. 53. 43. 33. 23. 13. 3.]
+
 ```
-</details>
+
+</details>  
 
 ### Problem 27.4
+
 - A tanglei rian hna tuahnak ding ah program tial:
-    - Size 5 x 5 a ngei mi 2D array ser, a border (rim) i elements kha 1 ah chiah, a chung elements vialte value 3 ah chiah.
-    - 4 x 3 matrix, a chung ah 2s lawng a um mi he multiply tuah.
-    - 1D array pakhat pek a si tikah, 2 le 8 karlak a um mi elements vialte kha negate (minus ah thlen), in place in tuah.
+
+- Size 5 x 5 a ngei mi 2D array ser, a border (rim) i elements kha 1 ah chiah, a chung elements vialte value 3 ah chiah.
+
+- 4 x 3 matrix, a chung ah 2s lawng a um mi he multiply tuah.
+
+- 1D array pakhat pek a si tikah, 2 le 8 karlak a um mi elements vialte kha negate (minus ah thlen), in place in tuah.
+
 <details>
+
 <summary><b>Program</b></summary>
 
 ```python
+
 import numpy as np
+
 a = np.ones((5,5))
+
 print(a)
+
 b = np.ones((4,3))
+
 c = np.full((3,5),2)
+
 d = b @ c
+
 print(d)
+
 e = np.arange(11)
+
 print(e)
+
 e[(2 < e) & (e < 8)] *= -1
+
 print(e)
+
 ```
+
 </details>
+
 <details><summary><b>Output</b></summary>
 
+  
+
 ```python
+
 [[1. 1. 1. 1. 1.]
+
 [1. 3. 3. 3. 1.]
+
 [1. 3. 3. 3. 1.]
+
 [1. 3. 3. 3. 1.]
+
 [1. 1. 1. 1. 1.]
+
 [[6. 6. 6. 6. 6.]
+
 [6. 6. 6. 6. 6.]
+
 [6. 6. 6. 6. 6.]
+
 [6. 6. 6. 6. 6.]]
-[0 1 2 3 4 5 6 7 8 9 10]
-[0 1 2 -3 -4 -5 -6 -7 8 9 10]
+
+[0  1  2  3  4  5  6  7  8  9  10]
+
+[0  1  2 -3 -4 -5 -6 -7  8  9  10]
+
 ```
 </details>
----
 
-# Exercises (Lentecelhnak)
-<details>
-<summary>Exercises</summary>
-- [A] A tanglei statements hi True (Hmaan) maw False (Hmaan lo) ti chim:
-    - [ ] Python kan install tikah Numpy library zong aa install chih.
-    - [ ] Numpy arrays cu lists nakin a rian a rang deuh.
-    - [ ] Numpy array elements cu types (phun) aa dang mi a si kho.
-    - [ ] Array ser a si hnu ah, a size le shape cu dynamically in thlen khawh a si.
-    - [ ] a le b i shape le elements an i khah ah cun np.array_equal(a,b) nih True a return lai.
 
-- [B] A tanglei biahalnak hna hi phi:
-    - [ ] First 10 natural numbers i Numpy Array zeitin dah na ser lai?
-    - [ ] Numpy hmang in complex numbers array kan ser kho maw?
-    - [ ] Size 3 x 4 x 5 a ngei mi arrays 5 kha zeitin dah na ser lai i, a values cu 0, 1, 5, random le garbage values cio in na khahter lai?
-    - [ ] 50-element array zeitin dah na ser lai i, 1 in a thok mi odd numbers (nambar tial) in na khahter lai?
-    - [ ] A tanglei Numpy array i elements type, elements zat, base address le bytes a lak zat zeitin dah na hmuh lai?
-    - [ ] **a1 = np.array([[1,2,3,4],[5,6,7,8]])** in ser mi Numpy array i dimension le shape zeitin dah na hmuh lai?
-    - [ ] 3 x 4 matrices pahnih pek a si tikah, hi matrices i corresponding elements kha zeitin dah add, subtract, multiply le divide na tuah hna lai?
-    - [ ] A tanglei hna lakah khuazei hi dah Numpy array cung i scalar arithmetic operations an si?
-    
-    ```Python 
-    a1 = np.array([[10,2,3,4],[5,6,7,8]])
-    a2 = np.array([[1,1,1,1],[2,2,2,2]])
-    a3 = a1 + a2
-    a4 = a1 - a2
-    a5 = a1 * a2
-    a6 = a1 / a2
-    a7 = a1 % a2
-    a8 = a1 ** 2
-    a9 += a1
-    a10 += 5
-    a11 = a1 + 2
-    a12 = a1 ** 2
-    ```
-- [C] A tanglei pairs hna hi a match (aa tlak) mi thim:
+  
 
-| Code / Function | Operation / Description|
-| :--- | :--- |
-|(a) `s = np.trace(a)` | 1. Statistical Operation|
-|(b) `s = a.cumsum(axis = 1)`| 2. Linear Algebra Operation|
-|(c) `a2 = np.copy(a1)` |3. Deep copy operation|
-|(d) `print(a1 < 2)`| 4.     Corresponding ele.comparison|
-|(e) `print(a1 > a2)` | 5. Comparison with one value|
-|(f) `print(a[1:3][3:6])`| 6. Bitwise Operation|
-|(g) `a2 = invert(a1)`| 7. Slicing Operation|
+## **Exercises**
 
-</details>
+**[A] A tanglei statements hi True (Hmaan) maw False (Hmaan lo) ti chim:**
+
+- [ ] Python kan install tikah Numpy library zong aa install chih.
+
+- [ ] Numpy arrays cu lists nakin a rian a rang deuh.
+
+- [ ] Numpy array elements cu types (phun) aa dang mi a si kho.
+
+- [ ] Array ser a si hnu ah, a size le shape cu dynamically in thlen khawh a si.
+
+- [ ] a le b i shape le elements an i khah ah cun np.array_equal(a,b) nih True a return lai.
+
+
+**[B] A tanglei biahalnak hna hi phi:**
+
+- [ ] First 10 natural numbers i Numpy Array zeitin dah na ser lai?
+
+- [ ] Numpy hmang in complex numbers array kan ser kho maw?
+
+- [ ] Size 3 x 4 x 5 a ngei mi arrays 5 kha zeitin dah na ser lai i, a values cu 0, 1, 5, random le garbage values cio in na khahter lai?
+
+- [ ] 50-element array zeitin dah na ser lai i, 1 in a thok mi odd numbers (nambar tial) in na khahter lai?
+
+- [ ] A tanglei Numpy array i elements type, elements zat, base address le bytes a lak zat zeitin dah na hmuh lai?
+
+- [ ] **a1 = np.array([[1,2,3,4],[5,6,7,8]])** in ser mi Numpy array i dimension le shape zeitin dah na hmuh lai?
+
+- [ ] 3 x 4 matrices pahnih pek a si tikah, hi matrices i corresponding elements kha zeitin dah add, subtract, multiply le divide na tuah hna lai?
+
+- [ ] A tanglei hna lakah khuazei hi dah Numpy array cung i scalar arithmetic operations an si?
+
+```Python
+
+a1 = np.array([[10,2,3,4],[5,6,7,8]])
+a2 = np.array([[1,1,1,1],[2,2,2,2]])
+a3 = a1 + a2
+a4 = a1 - a2
+a5 = a1 * a2
+a6 = a1 / a2
+a7 = a1 % a2
+a8 = a1 ** 2
+a9 += a1
+a10 += 5
+a11 = a1 + 2
+a12 = a1 ** 2
+
+```
+
+**[C] A tanglei pairs hna hi a match (aa tlak) mi thim:**
+|Code / Function|Opertion / Description  |
+|--|--|
+|a. `s = np.trace(a)` |1. Statistical Operation  |
+|b. `s = a.cumsum(axis = 1)`|2. Linear Algebra Operation|
+|c. `a2 = np.copy(a1)` |3. Deep copy operation|
+|d. `print(a1 < 2)`|4. Corresponding ele.comparison|
+|e. `print(a1 > a2)`|5. Comparison with one value|
+|f. `print(a[1:3][3:6])`|  6. Bitwise Operation|
+|g. `a2 = invert(a1)`|7. Slicing Operation|
+
+<div class="comments-section">
+  <h2 class="comments-title">💬 Comments & Discussion</h2>
+  <script src="https://giscus.app/client.js"
+        data-repo="Joseph1997-eng/Let-Us-Python-Book-"
+        data-repo-id="R_kgDOQfXjHg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQfXjHs4CzbEE"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>

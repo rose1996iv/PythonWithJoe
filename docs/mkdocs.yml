@@ -2,75 +2,146 @@ site_name: Let Us Python Book
 site_url: https://Joseph1997-eng.github.io/Let-Us-Python-Book-/
 repo_url: https://github.com/Joseph1997-eng/Let-Us-Python-Book-
 repo_name: Let-Us-Python-Book-
+site_description: Professional Python programming documentation with multilingual support
+site_author: Joseph
+copyright: Copyright &copy; 2025 Joseph
 
-# Modern Configuration
+# Theme Configuration
 theme:
   name: material
   language: en
-  font:
-    text: Roboto
-    code: JetBrains Mono
+  logo: joseph.png
+  favicon: joseph.png
   
-  # Color Palette (Dark/Light Mode Toggle ပါဝင်သည်)
+  # Color Palette
   palette: 
-    # Light Mode Setup
     - scheme: default
-      primary: teal 
-      accent: indigo
+      primary: teal
+      accent: deep orange
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-7
         name: Switch to dark mode
-    # Dark Mode Setup (Modern Slate Theme)
     - scheme: slate
       primary: teal
-      accent: lime
+      accent: deep orange
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: Switch to light mode
-
-  # Modern UI Features
+  
+  # Features
   features:
-    - navigation.instant     # Instant loading (SPA feel)
-    - navigation.tracking    # URL tracking
-    - navigation.tabs        # အပေါ်ဘက်တွင် Tab များဖြင့် ပြခြင်း (အဓိက Modern ဖြစ်စေသည့်အချက်)
-    - navigation.sections    # ဘေးဘက် Menu ကို အုပ်စုလိုက်ခွဲပြခြင်း
-    - navigation.top         # 'Back to Top' button ထည့်ခြင်း
-    - search.suggest         # ရှာဖွေရာတွင် စာလုံးအကြံပြုခြင်း
-    - search.highlight       # ရှာတွေ့သည့်စာလုံးကို Highlight လုပ်ခြင်း
-    - content.code.copy      # Code block များကို Copy ကူးရန် ခလုတ်ထည့်ခြင်း
-    - toc.follow             # စာဖတ်နေသည့်နေရာကို ဘေးဘက်တွင် လိုက်ပြခြင်း
+    - announce.dismiss
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+
+  icon:
+    repo: fontawesome/brands/github
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/social-card.css
 
-# Markdown Extensions (Code များလှပစေရန်)
+extra_javascript:
+  - javascripts/social-share.js
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - print-site:
+      add_to_navigation: true
+      print_page_title: 'Print this page'
+      add_print_site_banner: false
+      add_cover_page: false
+      include_css: true
+      enabled: true
+
+# Markdown Extensions
 markdown_extensions:
+  - abbr
   - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
-      alternate_style: true 
-  - attr_list
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
-# Navigation (ဖိုင်တည်နေရာများ ချိတ်ဆက်ခြင်း)
+# Social Links & Language Selector
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Joseph1997-eng
+      name: Joseph's GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/robinson-joseph-61734a17a/
+      name: Joseph's LinkedIn
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/josephsaimonn
+      name: Joseph's Facebook
+    - icon: fontawesome/solid/envelope
+      link: mailto:josephsaimonn@gmail.com
+      name: Email Joseph
+    - icon: fontawesome/brands/python
+      link: https://www.python.org
+      name: Python Official
+
+# Navigation
 nav:
   - Home: index.md
-  
-  # Multilingual Documentation
-  - '🌍 Languages':
-    - '🇬🇧 English':
-      - 'Home (English)': index.eng.md
-      - 'Chapter 1 (English)': Chapter 1.eng.md
-      - 'Chapter 27 (English)': Chapter 27.eng.md
-    - '🇲🇲 Myanmar':
-      - 'Home (မြန်မာ)': index.mm.md
-      - 'Chapter 1 (မြန်မာ)': Chapter 1.mm.md     
-      - 'Chapter 27 (မြန်မာ)': Chapter 27.mm.md
-    - '🦜 Hakha Chin':
-      - 'Home (Hakha)': index.hk.md
-      - 'Chapter 1 (Hakha)': Chapter 1.hk.md
-      - 'Chapter 27 (Hakha)': Chapter 27.hk.md
+  - '🇬🇧 English':
+    - 'Home': index.eng.md
+    - 'Chapter 27': eng/chapter-27.eng.md
+  - '🇲🇲 Myanmar':
+    - 'Home': index.mm.md
+    - 'Chapter 27': mm/chapter-27.mm.md
+  - '🦜 Hakha Chin':
+    - 'Home': index.hk.md
+    - 'Chapter 27': hk/chapter-27.hk.md
