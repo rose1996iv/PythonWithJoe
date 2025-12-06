@@ -1,4 +1,4 @@
-# Chapter 1 Introduction To Python
+# Chapter 3 Python Basics
 
 <div class="chapter-social-card">
   <div class="chapter-info">
