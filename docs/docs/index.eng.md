@@ -1,4 +1,4 @@
-# Let Us Python 🐍 - Your Journey to Python Mastery
+# Python Mastery 🐍 - Your Journey from Zero to Hero
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
@@ -6,7 +6,7 @@
 
 ## 📖 Overview
 
-Welcome to **Let Us Python**, a comprehensive learning resource based on the acclaimed book **"Let Us Python" (5th Edition)** by **Yashavant Kanetkar** and **Aditya Kanetkar**. This repository has been carefully curated and presented by **Joseph** to provide an accessible, structured, and engaging learning path for anyone seeking to master Python programming.
+Welcome to **Python Mastery**, a comprehensive learning resource carefully curated and presented by **Joseph**. This repository is designed to provide an accessible, structured, and engaging learning path for anyone seeking to master Python programming.
 
 Whether you're taking your first steps in programming or looking to deepen your Python expertise, this resource offers interactive notebooks, practical examples, and clear explanations that make learning both effective and enjoyable.
 
@@ -16,40 +16,43 @@ Whether you're taking your first steps in programming or looking to deepen your 
 
 This comprehensive guide covers everything from fundamentals to advanced concepts:
 
-* **Core Fundamentals**: Master variables, data types, loops, and functions
-* **Data Structures & Algorithms**: Build efficient solutions with Python's powerful data structures
-* **Object-Oriented Programming**: Dive deep into classes, inheritance, polymorphism, and design patterns
-* **File Handling & Exceptions**: Learn robust error handling and file operations
-* **Advanced Python Concepts**: Explore decorators, generators, context managers, and more
-* **Data Science with NumPy**: High-performance scientific computing (Chapter 27)
-* **Modern Best Practices**: Write clean, efficient, and Pythonic code
+* **Core Fundamentals**: Master variables, data types, loops, and functions.
+* **Control Flow**: Understand how to make decisions and repeat actions in code.
+* **Data Structures**: Build efficient solutions with Python's powerful lists, dictionaries, and sets.
+* **Modern Best Practices**: Write clean, efficient, and Pythonic code.
+* **Scientific Computing**: Introduction to powerful libraries like NumPy.
 
 ## 📚 Repository Contents
 
 This repository provides a rich learning experience through:
 
-* **Interactive Jupyter Notebooks**: Hands-on chapters with executable code examples
-* **Chapter-wise Organization**: Structured progression through Python concepts
-* **Practical Examples**: Real-world code snippets and exercises
-* **Clear Explanations**: Detailed commentary and concept breakdowns
+* **Interactive Jupyter Notebooks**: Hands-on chapters with executable code examples.
+* **Chapter-wise Organization**: Structured progression through Python concepts.
+* **Practical Examples**: Real-world code snippets and exercises.
+* **Clear Explanations**: Detailed commentary and concept breakdowns.
 
 ### Available Chapters
 
-| Chapter    | Topic                    | Description                                                                                                                                                     |
-| ---------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Chapter 27 | NumPy Library & Advanced Concepts | Master NumPy for scientific computing, plus advanced Python features including decorators, generators, context managers, and techniques for building robust applications. |
-
-*(More chapters coming soon...)*
+| Chapter | Topic | Description |
+| :--- | :--- | :--- |
+| **Chapter 1** | **Introduction to Python** | Getting started with Python, installation, and writing your first program. |
+| **Chapter 2** | **Python Basics** | Understanding variables, data types, and basic operators. |
+| **Chapter 3** | **Input and Output** | How to take user input and display output effectively. |
+| **Chapter 4** | **Strings** | Master text processing: creation, slicing, formatting, and built-in methods. |
+| **Chapter 5** | **Decision Control** | Making decisions in code using `if`, `if-else`, and `elif` statements. |
+| **Chapter 6** | **Repetition Control** | Mastering loops (`for`, `while`) to automate repetitive tasks. |
+| **...** | **...** | *(More chapters coming soon)* |
+| **Chapter 27** | **NumPy & Advanced Concepts** | Scientific computing with NumPy, plus advanced Python features like decorators and generators. |
 
 ## 🎯 Target Audience
 
 This repository is perfect for:
 
-* 🌱 **Beginners** starting their Python programming journey
-* 🎓 **Students** seeking to strengthen their Python fundamentals
-* 💼 **Developers** preparing for technical interviews
-* 🔄 **Career Switchers** looking for structured, chapter-based learning materials
-* 🚀 **Enthusiasts** who want to build real-world projects with Python
+* 🌱 **Beginners** starting their Python programming journey.
+* 🎓 **Students** seeking to strengthen their Python fundamentals.
+* 💼 **Developers** preparing for technical interviews.
+* 🔄 **Career Switchers** looking for structured learning materials.
+* 🚀 **Enthusiasts** who want to build real-world projects.
 
 ## 🛠️ Getting Started
 
@@ -64,7 +67,7 @@ This repository is perfect for:
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git
+    git clone [https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git](https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git)
     cd Let-Us-Python-Book-
     ```
 
@@ -88,9 +91,9 @@ This repository is perfect for:
     ```
 
 4. **Navigate and Learn**
-    * Open chapter notebooks to explore specific topics
-    * Execute code cells to see examples in action
-    * Study explanations and concepts at your own pace
+    * Open chapter notebooks to explore specific topics.
+    * Execute code cells to see examples in action.
+    * Study explanations and concepts at your own pace.
 
 ### View Online Documentation
 
@@ -162,4 +165,4 @@ This repository contains educational materials derived from **"Let Us Python" (5
 
 ---
 
-*Last Updated: December 4, 2025*
+*Last Updated: December 11, 2025*
