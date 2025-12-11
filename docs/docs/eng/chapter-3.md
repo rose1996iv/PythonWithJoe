@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Python Basics</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/Let-Us-Python-Book-/Logo.png" alt="Joseph Logo">
+    <img src="/Let-Us-Python-Book-/Logo.png" alt="Let Us Python Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/Joseph1997-eng" target="_blank" class="social-icon" title="GitHub">

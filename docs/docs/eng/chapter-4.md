@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Strings</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/Let-Us-Python-Book-/Logo.png" alt="Joseph Logo">
+    <img src="/Let-Us-Python-Book-/Logo.png" alt="Let Us Python Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/Joseph1997-eng" target="_blank" class="social-icon" title="GitHub">
@@ -39,7 +39,7 @@
 'BlindSpot'
 "BlindSpot"
 '''BlindSpot'''
-"""Blindspot"""
+"""BlindSpot"""
 ```
 
 **Handling Special Characters in Strings**
@@ -427,7 +427,7 @@ print(s[-10:-4])
 print(s[:-4])
 
 # reverse Bamboozled
-print([::-1])
+print(s[::-1])
 
 print(s[0:10:1])
 print(s[0:10:2])
