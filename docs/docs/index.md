@@ -6,9 +6,9 @@
 
 ## 📖 Overview
 
-Welcome to **Let Us Python**, a comprehensive learning resource based on the acclaimed book **"Let Us Python" (5th Edition)** by **Yashavant Kanetkar** and **Aditya Kanetkar**. This repository has been carefully curated and presented by **Joseph** to provide an accessible, structured, and engaging learning path for anyone seeking to master Python programming.
+Welcome to **Let Us Python**, a comprehensive learning resource based on the acclaimed book **"Let Us Python" (5th Edition)** by **Yashavant Kanetkar** and **Aditya Kanetkar**. This repository has been carefully curated and presented by **Joseph**, a **DataCamp Python Data Associate Certified** professional and a passionate student at **Graphic Era Hill University**, specializing in **AI, Cyber Security, and Data Science**.
 
-Whether you're taking your first steps in programming or looking to deepen your Python expertise, this resource offers interactive notebooks, practical examples, and clear explanations that make learning both effective and enjoyable.
+This resource provides an accessible, structured, and engaging learning path for anyone seeking to master Python programming. Whether you're taking your first steps in programming or looking to deepen your Python expertise, this resource offers interactive notebooks, practical examples, and clear explanations that make learning both effective and enjoyable.
 
 ---
 
@@ -68,11 +68,21 @@ This repository provides a rich learning experience through:
 
 ### Available Chapters
 
-| Chapter    | Topic                    | Description                                                                                                                                                     |
-| ---------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Chapter 27 | NumPy Library & Advanced Concepts | Master NumPy for scientific computing, plus advanced Python features including decorators, generators, context managers, and techniques for building robust applications. |
+| Chapter | Topic | Description |
+| :--- | :--- | :--- |
+| **Chapter 1** | **Introduction to Python** | Discover Python's history, popularity, and programming paradigms. Learn why Python is the language of choice for developers worldwide and explore functional, procedural, object-oriented, and event-driven programming models. |
+| **Chapter 2** | **Python Basics** | Master the fundamentals including variables, data types, operators, and expressions. Build a solid foundation for your Python journey. |
+| **Chapter 3** | **Input and Output** | Learn effective techniques for taking user input and displaying output. Understand formatting options and best practices for user interaction. |
+| **Chapter 4** | **Strings** | Deep dive into text processing with string creation, slicing, formatting, and powerful built-in methods. Master string manipulation techniques essential for real-world applications. |
+| **Chapter 5** | **Decision Control** | Make your programs intelligent with `if`, `if-else`, and `elif` statements. Learn to implement conditional logic and decision-making in your code. |
+| **Chapter 6** | **Repetition Control** | Automate repetitive tasks with `for` and `while` loops. Master iteration techniques and loop control statements for efficient programming. |
+| **Chapter 7** | **Functions** | Write modular, reusable code with functions. Understand parameters, return values, scope, and advanced function concepts. |
+| **Chapter 8** | **Lists** | Explore Python's most versatile data structure. Learn list operations, methods, slicing, and implement stack and queue data structures. |
+| **Chapter 9** | **Advanced Topics** | Dive into more sophisticated Python concepts and techniques to elevate your programming skills. |
+| **Chapter 27** | **NumPy & Advanced Concepts** | Master scientific computing with NumPy for high-performance numerical operations. Explore advanced Python features including decorators, generators, context managers, and techniques for building robust, production-ready applications. |
 
-*(More chapters coming soon...)*
+> [!NOTE]
+> More chapters are being progressively added and translated into multiple languages. Each chapter includes practical examples, exercises, and real-world applications to reinforce your learning!
 
 ## 🎯 Target Audience
 

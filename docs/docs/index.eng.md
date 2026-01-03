@@ -6,9 +6,9 @@
 
 ## 📖 Overview
 
-Welcome to **Python Mastery**, a comprehensive learning resource carefully curated and presented by **Joseph**. This repository is designed to provide an accessible, structured, and engaging learning path for anyone seeking to master Python programming.
+Welcome to **Python Mastery**, a comprehensive learning resource carefully curated and presented by **Joseph**, a **DataCamp Python Data Associate Certified** professional and a passionate student at **Graphic Era Hill University**, specializing in **AI, Cyber Security, and Data Science**.
 
-Whether you're taking your first steps in programming or looking to deepen your Python expertise, this resource offers interactive notebooks, practical examples, and clear explanations that make learning both effective and enjoyable.
+This repository is designed to provide an accessible, structured, and engaging learning path for anyone seeking to master Python programming. Whether you're taking your first steps in programming or looking to deepen your Python expertise, this resource offers interactive notebooks, practical examples, and clear explanations that make learning both effective and enjoyable.
 
 ---
 
@@ -35,14 +35,19 @@ This repository provides a rich learning experience through:
 
 | Chapter | Topic | Description |
 | :--- | :--- | :--- |
-| **Chapter 1** | **Introduction to Python** | Getting started with Python, installation, and writing your first program. |
-| **Chapter 2** | **Python Basics** | Understanding variables, data types, and basic operators. |
-| **Chapter 3** | **Input and Output** | How to take user input and display output effectively. |
-| **Chapter 4** | **Strings** | Master text processing: creation, slicing, formatting, and built-in methods. |
-| **Chapter 5** | **Decision Control** | Making decisions in code using `if`, `if-else`, and `elif` statements. |
-| **Chapter 6** | **Repetition Control** | Mastering loops (`for`, `while`) to automate repetitive tasks. |
-| **...** | **...** | *(More chapters coming soon)* |
-| **Chapter 27** | **NumPy & Advanced Concepts** | Scientific computing with NumPy, plus advanced Python features like decorators and generators. |
+| **Chapter 1** | **Introduction to Python** | Discover Python's history, popularity, and programming paradigms. Learn why Python is the language of choice for developers worldwide and explore functional, procedural, object-oriented, and event-driven programming models. |
+| **Chapter 2** | **Python Basics** | Master the fundamentals including variables, data types, operators, and expressions. Build a solid foundation for your Python journey. |
+| **Chapter 3** | **Input and Output** | Learn effective techniques for taking user input and displaying output. Understand formatting options and best practices for user interaction. |
+| **Chapter 4** | **Strings** | Deep dive into text processing with string creation, slicing, formatting, and powerful built-in methods. Master string manipulation techniques essential for real-world applications. |
+| **Chapter 5** | **Decision Control** | Make your programs intelligent with `if`, `if-else`, and `elif` statements. Learn to implement conditional logic and decision-making in your code. |
+| **Chapter 6** | **Repetition Control** | Automate repetitive tasks with `for` and `while` loops. Master iteration techniques and loop control statements for efficient programming. |
+| **Chapter 7** | **Functions** | Write modular, reusable code with functions. Understand parameters, return values, scope, and advanced function concepts. |
+| **Chapter 8** | **Lists** | Explore Python's most versatile data structure. Learn list operations, methods, slicing, and implement stack and queue data structures. |
+| **Chapter 9** | **Advanced Topics** | Dive into more sophisticated Python concepts and techniques to elevate your programming skills. |
+| **Chapter 27** | **NumPy & Advanced Concepts** | Master scientific computing with NumPy for high-performance numerical operations. Explore advanced Python features including decorators, generators, context managers, and techniques for building robust, production-ready applications. |
+
+> [!NOTE]
+> More chapters are being progressively added. Each chapter includes practical examples, exercises, and real-world applications to reinforce your learning!
 
 ## 🎯 Target Audience
 
@@ -119,8 +124,7 @@ Then open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 * Practice exercises and challenges
 * Real-world application scenarios
 
-**Original Authors**: Yashavant Kanetkar, Aditya Kanetkar  
-**Edition**: 5th Edition  
+**Resources**: Yashavant Kanetkar, Aditya Kanetkar, DataCamp, Python notes from GoalKicker
 **Curated by**: Joseph
 
 ## 🤝 Contributing

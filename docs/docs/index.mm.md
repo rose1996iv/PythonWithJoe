@@ -1,155 +1,154 @@
-# Let Us Python 🐍 - Python Pro ဖြစ်ဖို့ ဒီကစမယ်
+# Python Mastery 🐍 - သင့်ရဲ့ Python လေ့လာရေးခရီးစဉ် (Zero to Hero)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
 [![Documentation](https://img.shields.io/badge/docs-deployed-brightgreen)](https://Joseph1997-eng.github.io/Let-Us-Python-Book-/)
 
-## 📖 ဘာလဲဟ
+## 📖 အကျဉ်းချုပ်
 
-**Let Us Python** Repo ကနေ ကြိုဆိုပါတယ်ဗျာ။ ဒါကတော့ ဆရာကြီး **Yashavant Kanetkar** နဲ့ **Aditya Kanetkar** တို့ရဲ့ နာမည်ကြီး **"Let Us Python" (5th Edition)** စာအုပ်ကို အခြေခံပြီး ပြန်လုပ်ထားတာပါ။ Python ကို သေသေချာချာ နားလည်ပြီး Pro ဖြစ်ချင်တဲ့ ဘော်ဒါတွေအတွက် ကျွန်တော် **Joseph** ကိုယ်တိုင် သေချာလေး စီစဉ်ပေးထားတာနော်။
+**Python Mastery** မှ ကြိုဆိုပါတယ်။ ဒီသင်ခန်းစာတွေကို **Graphic Era Hill University** မှ **AI, Cyber Security နဲ့ Data Science** ကျောင်းသား၊ **DataCamp Python Data Associate Certified** ရရှိထားသူ **Joseph** က သေချာ စုစည်းတင်ဆက်ထားတာ ဖြစ်ပါတယ်။
 
-Programming စလေ့လာမယ့် Beginner ပဲဖြစ်ဖြစ်၊ Python ကို Level မြင့်ချင်တဲ့ ဆရာသမားပဲဖြစ်ဖြစ်၊ ဒီ Repo မှာ Interactive notebook တွေ၊ လက်တွေ့ Code တွေနဲ့ အရှင်းလင်းဆုံး ရှင်းပြချက်တွေ ပါတာမို့လို့ လေ့လာရတာ ရှယ်မိုက်နေမှာ သေချာတယ်။
+ဒီ Repository ဟာ Python programming ကို ကျွမ်းကျင်ချင်သူ ဘယ်သူမဆို လွယ်ကူထိရောက်စွာ လေ့လာနိုင်ဖို့ ရည်ရွယ်ပါတယ်။ သင်ဟာ Programming ကို အခုမှ စတင်လေ့လာသူပဲဖြစ်ဖြစ်၊ ရှိပြီးသား Python knowledge ကို ပိုမိုနက်ရှိုင်းအောင် လေ့လာချင်သူပဲဖြစ်ဖြစ်၊ ဒီသင်ခန်းစာတွေမှာ လက်တွေ့စမ်းသပ်နိုင်တဲ့ interactive notebooks တွေ၊ ရှင်းလင်းတဲ့ ဥပမာတွေ ပါဝင်တာကြောင့် ပျော်ရွှင်စွာ လေ့လာနိုင်မှာပါ။
 
------
+---
 
-## 🚀 ဘာတွေ လေ့လာရမလဲ
+## 🚀 ဘာတွေ လေ့လာရမလဲ?
 
-ဒီ Guide မှာတော့ အခြေခံကနေ Advanced အထိ အကုန်ပါမယ်ဗျာ -
+ဒီလမ်းညွှန်မှာ အခြေခံကစပြီး အဆင့်မြင့် Concepts တွေအထိ စုံလင်စွာ ပါဝင်ပါတယ် -
 
-  * **အခြေခံအုတ်မြစ်များ**: Variables, data types, loops နဲ့ functions တွေကို ရေလည်ပိုင်သွားစေရမယ်။
-  * **Data Structures & Algorithms**: Python ရဲ့ Data structures တွေသုံးပြီး အလန်းစား Solution တွေ ဘယ်လိုတည်ဆောက်မလဲ။
-  * **Object-Oriented Programming**: Classes, inheritance, polymorphism နဲ့ design patterns တွေကို အတွင်းကျကျ ဖြိုမယ်။
-  * **File Handling & Exceptions**: Error တက်ရင် ဘယ်လို Handle လုပ်မလဲ၊ File တွေနဲ့ ဘယ်လို ကစားမလဲ။
-  * **Advanced Stuff**: Decorators တို့၊ Generators တို့လို Python ရဲ့ အဆင့်မြင့် Concept တွေကို စူးစမ်းမယ်။
-  * **NumPy ဖြင့် Data Science**: Chapter 27 မှာတော့ Calculation ပိုင်းအတွက် ရှယ်ကြမ်းတဲ့ NumPy အကြောင်း လေ့လာမယ်။
-  * **Best Practices**: Code ရေးရင် သန့်သန့်ပြန့်ပြန့်နဲ့ Python Style မိမိ ဘယ်လိုရေးမလဲဆိုတာတွေပေါ့။
+* **Core Fundamentals**: Variables, data types, loops နဲ့ functions တွေကို ကျွမ်းကျင်စွာ သုံးတတ်ခြင်း။
+* **Control Flow**: Code တွေရေးတဲ့အခါ ဆုံးဖြတ်ချက်ချတာ (Decision making) နဲ့ လုပ်ဆောင်ချက်တွေကို ထပ်ခါထပ်ခါ လုပ်ခိုင်းတာ (Looping) တွေကို နားလည်ခြင်း။
+* **Data Structures**: Python ရဲ့ အားကောင်းတဲ့ lists, dictionaries နဲ့ sets တွေကို အသုံးပြုပြီး ထိရောက်တဲ့ Solutions တွေ တည်ဆောက်ခြင်း။
+* **Modern Best Practices**: သန့်ရှင်းသပ်ရပ်ပြီး စွမ်းဆောင်ရည်ကောင်းတဲ့ Python code တွေ ရေးသားနည်း (Clean Code)။
+* **Scientific Computing**: NumPy လိုမျိုး အစွမ်းထက်တဲ့ Libraries တွေကို မိတ်ဆက်ပေးခြင်း။
 
-## 📚 Repo ထဲမှာ ဘာတွေပါလဲ
+## 📚 Repository မှာ ပါဝင်တဲ့ အရာများ
 
-ဒီထဲမှာ လေ့လာလို့ကောင်းအောင် အများကြီး ထည့်ပေးထားတယ် -
+ဒီ Repository မှာ လေ့လာရလွယ်ကူအောင် အောက်ပါအတိုင်း စီစဉ်ထားပါတယ် -
 
-  - **Interactive Jupyter Notebooks**: Code တွေကို လက်တွေ့ Run ကြည့်လို့ရမယ့် Notebooks တွေပါတယ်။
-  - **အဆင့်လိုက်သွားမယ်**: Concept တွေကို မျက်စိမလည်အောင် တစ်ဆင့်ချင်းစီ သွားမယ်။
-  - **Real-world examples**: လက်တွေ့သုံးလို့ရမယ့် Code အပိုင်းအစတွေ၊ လေ့ကျင့်ခန်းတွေ ပါတယ်။
-  - **ရှင်းပြချက် အလန်းများ**: ဖတ်လိုက်တာနဲ့ "အော်.. ဒါကြောင့်ကိုး" ဆိုပြီး နားလည်သွားမယ့် ရှင်းပြချက်တွေပါတယ်။
+* **Interactive Jupyter Notebooks**: ကိုယ်တိုင် Run ကြည့်လို့ရတဲ့ လက်တွေ့ကုတ်တွေ ပါဝင်ပါတယ်။
+* **Chapter-wise Organization**: ခေါင်းစဉ်အလိုက် အဆင့်ဆင့် လေ့လာနိုင်အောင် စီစဉ်ထားပါတယ်။
+* **Practical Examples**: လက်တွေ့လုပ်ငန်းခွင်သုံး Code အပိုင်းအစတွေနဲ့ လေ့ကျင့်ခန်းတွေ ပါဝင်ပါတယ်။
+* **Clear Explanations**: သဘောတရားတွေကို အသေးစိတ် ရှင်းလင်းချက်များ ပါဝင်ပါတယ်။
 
-### ပါဝင်မည့် အခန်းများ
+### ရရှိနိုင်သော အခန်းများ (Chapters)
 
-| အခန်း     | ခေါင်းစဉ်                     | အကြောင်းအရာ                                                                                                                                                       |
-| ---------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| အခန်း ၂۷ | NumPy Library & Advanced Concepts | Data Science အတွက် NumPy ကို မွှေမယ်။ ပြီးတော့ Decorators, Generators, Context Managers လိုမျိုး Advanced ပိုင်းတွေနဲ့ Application အမိုက်စားတွေ တည်ဆောက်ဖို့ နည်းလမ်းတွေပေါ့။ |
+| အခန်း | ခေါင်းစဉ် | အကြောင်းအရာ |
+| :--- | :--- | :--- |
+| **Chapter 1** | **Introduction to Python** | Python ရဲ့ သမိုင်းကြောင်း၊ လူကြိုက်များမှုနဲ့ Programming ပုံစံများ။ Python ကို ဘာကြောင့် ကမ္ဘာတစ်ဝန်းက Developers တွေ ရွေးချယ်ကြတာလဲ ဆိုတာနဲ့ functional, procedural, object-oriented, event-driven စတဲ့ programming models တွေကို လေ့လာရပါမယ်။ |
+| **Chapter 2** | **Python Basics** | Variables, data types, operators နဲ့ expressions စတဲ့ အခြေခံအုတ်မြစ်တွေကို ခိုင်မာအောင် တည်ဆောက်ခြင်း။ |
+| **Chapter 3** | **Input and Output** | User ဆီက Input ယူနည်းနဲ့ Output ပြန်ပြနည်းများ။ Formatting options တွေနဲ့ အကောင်းဆုံး အလေ့အကျင့်များကို လေ့လာခြင်း။ |
+| **Chapter 4** | **Strings** | စာသား (Text) တွေကို ကိုင်တွယ်ဖြေရှင်းခြင်း။ String ဖန်တီးပုံ၊ ဖြတ်တောက်ပုံ (Slicing)၊ ပြုပြင်ပုံ (Formatting) နဲ့ Built-in methods တွေကို လေ့လာခြင်း။ |
+| **Chapter 5** | **Decision Control** | `if`, `if-else`, `elif` တွေကို သုံးပြီး သင့် Program ကို ဉာဏ်ရည်ရှိအောင် လုပ်ဆောင်ခြင်း။ Conditional logic တွေကို လက်တွေ့အသုံးချခြင်း။ |
+| **Chapter 6** | **Repetition Control** | `for` နဲ့ `while` loops တွေကို သုံးပြီး ထပ်ခါတလဲလဲ လုပ်ရမယ့် အလုပ်တွေကို Automate လုပ်ခြင်း။ |
+| **Chapter 7** | **Functions** | Code တွေကို အပိုင်းလိုက်ခွဲပြီး (Modular) ပြန်လည်အသုံးပြုလို့ရအောင် (Reusable) ရေးသားခြင်း။ Parameters, return values နဲ့ Scope အကြောင်းများ။ |
+| **Chapter 8** | **Lists** | Python ရဲ့ အသုံးအဝင်ဆုံး Data structure ဖြစ်တဲ့ List အကြောင်း။ List operations တွေနဲ့ Stack/Queue data structures တွေကို တည်ဆောက်ခြင်း။ |
+| **Chapter 9** | **Advanced Topics** | သင့်ရဲ့ Programming skill ကို မြှင့်တင်ပေးမယ့် ပိုမိုနက်ရှိုင်းတဲ့ Python concept များ။ |
+| **Chapter 27** | **NumPy & Advanced Concepts** | Scientific computing အတွက် NumPy ကို အသုံးပြုခြင်း။ Decorators, generators, context managers စတဲ့ Advanced features များနဲ့ Production-ready application တွေ တည်ဆောက်နည်းများ။ |
 
-*(နောက်ထပ် အခန်းတွေလည်း မကြာခင် ထပ်လာမယ်နော်... Stay Tuned!)*
+> [!NOTE]
+> နောက်ထပ် အခန်းတွေကိုလည်း တဖြည်းဖြည်းချင်း ထပ်ထည့်ပေးသွားမှာ ဖြစ်ပါတယ်။ အခန်းတိုင်းမှာ လက်တွေ့လေ့ကျင့်ခန်းတွေနဲ့ Real-world applications တွေ ပါဝင်ပါတယ်။
 
-## 🎯 ဘယ်သူတွေနဲ့ ကိုက်လဲ
+## 🎯 ဘယ်သူတွေ လေ့လာသင့်လဲ?
 
-ဒီ Repo က ဒီလိုလူတွေအတွက် ကွက်တိပဲ -
+* 🌱 **Beginners**: Python ကို အခုမှ စတင်လေ့လာမယ့်သူများ။
+* 🎓 **Students**: Python အခြေခံကို ပိုမိုခိုင်မာအောင် လုပ်ချင်တဲ့ ကျောင်းသား/သူများ။
+* 💼 **Developers**: အလုပ်အင်တာဗျူးတွေအတွက် ပြင်ဆင်နေသူများ။
+* 🔄 **Career Switchers**: စနစ်တကျ လေ့လာသင်ယူဖို့ ရှာဖွေနေသူများ။
+* 🚀 **Enthusiasts**: လက်တွေ့ Project တွေ ရေးဆွဲချင်တဲ့ ဝါသနာရှင်များ။
 
-  - 🌱 **Newbie များ** - Python လောကထဲ အခုမှ စဝင်မယ့်သူတွေ
-  - 🎓 **ကျောင်းသားများ** - ကျောင်းစာအပြင် အပြင်မှာသုံးတဲ့ Skill ပါ လိုချင်သူတွေ
-  - 💼 **Developer များ** - Interview ဖြေဖို့ ပြင်ဆင်နေသူတွေ
-  - 🔄 **Career Change မယ့်သူများ** - Coding ဘက်ကူးချင်လို့ လမ်းကြောင်းမှန် ရှာနေသူတွေ
-  - 🚀 **Enthusiasts** - ကိုယ်တိုင် Project တွေ ဖန်တီးချင်သူတွေ
+## 🛠️ စတင်လေ့လာခြင်း (Getting Started)
 
-## 🛠️ ကဲ.. စ run ကြမယ်
+### လိုအပ်ချက်များ (Prerequisites)
 
-### ဘာတွေလိုအပ်လဲ
+* Python 3.7 (သို့မဟုတ်) အထက်
+* Jupyter Notebook
+* Programming အခြေခံအနည်းငယ် (မရှိလည်း အဆင်ပြေပါတယ်)
 
-  - Python 3.7 (သို့) အထက်
-  - Jupyter Notebook
-  - Programming အခြေခံလေး ရှိရင်တော့ ပိုကောင်းတာပေါ့ (မရှိလည်း ကိစ္စမရှိ၊ ဒီမှာ အစကပြန်သင်မှာ)
+### Installation (ထည့်သွင်းပုံ)
 
-### Install လုပ်နည်း
+1. **Repository ကို Clone လုပ်ပါ**
 
-1.  **Repo ကို Clone လိုက်ဗျာ**
     ```bash
-    git clone https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git
+    git clone [https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git](https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git)
     cd Let-Us-Python-Book-
     ```
 
-2.  **လိုအပ်တာတွေ Install လုပ်မယ်**
+2. **လိုအပ်တာတွေ Install လုပ်ပါ**
+
     ```bash
-    # Jupyter Notebook သွင်းမယ်
+    # Install Jupyter Notebook
     pip install jupyter
-
-    # လိုအပ်မယ့် Library တွေ သွင်းမယ်
+    
+    # Install common Python libraries
     pip install numpy pandas matplotlib
-
-    # Documentation အတွက် MkDocs (မသွင်းလည်းရတယ်)
+    
+    # Install MkDocs for documentation (optional - စာဖတ်ဖို့အတွက်ပါ)
     pip install mkdocs-material
     ```
 
-3.  **Jupyter Notebook ဖွင့်မယ်**
+3. **Jupyter Notebook ကို ဖွင့်ပါ**
+
     ```bash
     jupyter notebook
     ```
 
-4.  **စလေ့လာတော့လေ**
-      - ကိုယ်လေ့လာချင်တဲ့ အခန်းကို ဖွင့်လိုက်။
-      - Code cell တွေကို Run ကြည့်။
-      - ရှင်းပြချက်တွေကို အေးဆေးဖတ်ပြီး စမ်းကြည့်ဗျာ။
+4. **စတင်လေ့လာပါ**
+    * Chapter အလိုက် Notebook တွေကို ဖွင့်ကြည့်ပါ။
+    * Code cells တွေကို ကိုယ်တိုင် Run ကြည့်ပါ။
+    * ရှင်းလင်းချက်တွေကို ဖတ်ပြီး ကိုယ်ပိုင်အရှိန်နဲ့ လေ့လာပါ။
 
-### Online ကနေ ဖတ်ချင်ရင်
+### Online Documentation ဖတ်ရှုရန်
 
-🌐 **https://Joseph1997-eng.github.io/Let-Us-Python-Book-/**
+Browser ကနေပဲ သက်တောင့်သက်သာ ဖတ်ချင်တယ်ဆိုရင်တော့ အောက်ပါ Link မှာ ဝင်ဖတ်နိုင်ပါတယ် -
 
-ဒါမှမဟုတ် ကိုယ့်စက်ထဲမှာပဲ Docs ကို run ချင်ရင်:
+🌐 **[https://Joseph1997-eng.github.io/Let-Us-Python-Book-/](https://Joseph1997-eng.github.io/Let-Us-Python-Book-/)**
+
+(သို့မဟုတ်) စက်ထဲမှာ run ပြီးဖတ်ချင်ရင် -
+
 ```bash
 mkdocs serve
 ```
 
-ပြီးရင် Browser မှာ http://127.0.0.1:8000 ကို ခေါ်လိုက်။
+ပြီးရင် Browser မှာ [http://127.0.0.1:8000](http://127.0.0.1:8000) ကို ဖွင့်လိုက်ပါ။
 
 ## 📘 စာအုပ်အကြောင်း
 
-**"Let Us Python"** ဆိုတာ Python လောကမှာ လူသိများပြီးသားစာအုပ်ပါ။ 5th Edition ဆိုတော့ ခေတ်နဲ့အညီ Update ဖြစ်ပြီးသား။
+**"Let Us Python"** ဟာ လူပေါင်းများစွာကို Python ကျွမ်းကျင်အောင် ကူညီပေးခဲ့တဲ့ လမ်းညွှန်စာအုပ်ဖြစ်ပါတယ်။ 5th Edition မှာတော့ ခေတ်မီ Python နည်းလမ်းတွေအပြင် အောက်ပါတို့ ပါဝင်ပါတယ် -
 
-  - Beginner တွေ နားလည်လွယ်အောင် ရှင်းပြထားတယ်။
-  - အလွယ်ကနေ အခက်ကို ဖြည်းဖြည်းချင်း ဆွဲခေါ်သွားမယ်။
-  - Code Example တွေ အများကြီးပါတယ်။
-  - လေ့ကျင့်ခန်းတွေနဲ့ Challenge တွေပါတယ်။
+* Beginners တွေအတွက် နားလည်လွယ်တဲ့ ရှင်းလင်းချက်များ
+* လွယ်ရာမှ ခက်ရာသို့ တဖြည်းဖြည်းချင်း လေ့လာနိုင်မယ့် ပုံစံ
+* များပြားလှတဲ့ Code examples များ
+* လက်တွေ့လေ့ကျင့်ခန်းများနှင့် စိန်ခေါ်မှုများ
 
-**Original Authors**: Yashavant Kanetkar, Aditya Kanetkar  
-**Edition**: 5th Edition  
-**Curator**: Joseph
+**မှီငြမ်းထားသည်များ**: Yashavant Kanetkar, Aditya Kanetkar, DataCamp, GoalKicker Python notes  
+**ပြုစုသူ**: Joseph
 
-## 🤝 ဝိုင်းကူပေးကြပါဦး
+## 🤝 ပါဝင်ကူညီခြင်း (Contributing)
 
-ဒီ Repo ပိုကောင်းသွားအောင် ဘော်ဒါတို့လည်း ဝိုင်းကူပေးလို့ရတယ်နော်။ ကြိုဆိုပါတယ်ဗျ!
+ဒီ Resource ကို ပိုကောင်းအောင် ဝိုင်းဝန်းကူညီပေးဖို့ ဖိတ်ခေါ်ပါတယ်ခင်ဗျာ။ အောက်ပါအချက်တွေနဲ့ ကူညီနိုင်ပါတယ် -
 
-  - 📝 **Content**: ရှင်းပြထားတာ လိုနေရင်၊ Example တွေ ထပ်ထည့်ချင်ရင် ပြင်ပေးလို့ရတယ်။
-  - 🐛 **Bugs**: အမှားတွေ့ရင် လှမ်းပြောပေး၊ ဒါမှမဟုတ် ပြင်ပေး။
-  - 💡 **Ideas**: အခန်းသစ်တွေ ထပ်ထည့်ချင်ရင် အကြံပေး။
+* 📝 **Content Improvements**: ရှင်းလင်းချက်တွေ ပြင်ဆင်တာ၊ ဥပမာတွေ ထပ်ထည့်တာ။
+* 🐛 **Bug Reports**: အမှားတွေ့ရင် ပြောပြပေးတာ။
+* 💡 **Suggestions**: အခန်းသစ်တွေ၊ ခေါင်းစဉ်သစ်တွေ အကြံပြုတာ။
 
-**ဘယ်လိုကူညီမလဲ:**
-1.  Repo ကို Fork လုပ်။
-2.  Branch အသစ်တစ်ခုခွဲ (`git checkout -b feature/cool-stuff`)
-3.  ပြင်စရာရှိတာပြင်။
-4.  Commit လုပ် (`git commit -m "Added cool stuff"`)
-5.  ကိုယ့် Branch ကို Push လုပ် (`git push origin feature/cool-stuff`)
-6.  Pull Request တင်လိုက်ဗျာ။
+## 📞 ဆက်သွယ်ရန် (Contact & Support)
 
-## 📞 ဆက်သွယ်ရန်
+မေးချင်တာတွေ၊ အကြံပြုချင်တာတွေရှိရင် ဆက်သွယ်နိုင်ပါတယ် -
 
-မေးစရာရှိလား? အကြံပေးချင်လား? အချိန်မရွေး ဆက်သွယ်လို့ရတယ်ဗျ။
-
-  - 🐛 **Issues**: https://github.com/Joseph1997-eng/Let-Us-Python-Book-/issues
-  - 💬 **Discussions**: Repo Discussions မှာ ဆွေးနွေးနိုင်ပါတယ်
-  - 📧 **Repository**: https://github.com/Joseph1997-eng/Let-Us-Python-Book-
+* 🐛 **Issues**: [Open an issue](https://github.com/Joseph1997-eng/Let-Us-Python-Book-/issues)
+* 📧 **Repository**: [Let-Us-Python-Book-](https://github.com/Joseph1997-eng/Let-Us-Python-Book-)
 
 ## 📄 License
 
-ဒီ Repo က **MIT License** နဲ့ပါ — အသေးစိတ်သိချင်ရင် LICENSE ဖိုင် ဖွင့်ကြည့်ပါ။
+This repository is licensed under the **MIT License** - see the LICENSE file for details.
 
-## ⚠️ Disclaimer
+---
 
-ဒီ Repo ထဲက အကြောင်းအရာတွေက **"Let Us Python" (5th Edition)** ကို အခြေခံပြီး ပညာဒါနအနေနဲ့ ပြန်မျှဝေတာဖြစ်ပါတယ်။ လေ့လာသင်ယူဖို့သက်သက် ရည်ရွယ်ပါတယ်။ မူရင်းအနှစ်သာရ အပြည့်အစုံလိုချင်ရင်တော့ Yashavant Kanetkar နဲ့ Aditya Kanetkar တို့ရဲ့ စာအုပ်အစစ်ကို ဝယ်ဖတ်ဖို့ တိုက်တွန်းပါတယ်ဗျ။
+**Happy Learning!** 🐍✨
 
------
+*ဒီနေ့ပဲ သင့်ရဲ့ Python ခရီးစဉ်ကို စတင်လိုက်ပြီး Beginner ဘဝကနေ ယုံကြည်မှုရှိတဲ့ Developer တစ်ယောက်အဖြစ် ပြောင်းလဲလိုက်ပါ။*
 
-**ပျော်ရွှင်စွာ လေ့လာကြပါစို့!** 🐍✨  
-*ဒီနေ့ပဲ Python ကို စလေ့လာပြီး Zero to Hero ဖြစ်အောင် ကြိုးစားလိုက်ကြရအောင်!*
+---
 
------
-
-*Last Updated: December 4, 2025*
+🗓️ *Last Updated: January 3, 2026*
