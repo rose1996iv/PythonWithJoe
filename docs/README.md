@@ -6,42 +6,30 @@
 
 ## 📖 Overview
 
-Welcome to **Let Us Python**, a comprehensive learning resource based on the acclaimed book **"Let Us Python" (5th Edition)** by **Yashavant Kanetkar** and **Aditya Kanetkar**. This repository has been carefully curated and presented by **Joseph**, a **DataCamp Python Data Associate Certified** professional and a passionate student at **Graphic Era Hill University**, specializing in **AI, Cyber Security, and Data Science**.
+Welcome to **Let Us Python**, a comprehensive learning resource carefully curated and presented by **Joseph**, a **DataCamp Python Data Associate Certified** professional and a passionate student at **Graphic Era Hill University**, specializing in **AI, Cyber Security, and Data Science**.
 
-This resource provides an accessible, structured, and engaging learning path for anyone seeking to master Python programming. Whether you're taking your first steps in programming or looking to deepen your Python expertise, this resource offers interactive notebooks, practical examples, and clear explanations that make learning both effective and enjoyable.
+This repository is designed to provide an accessible, structured, and engaging learning path for anyone seeking to master Python programming. Whether you're taking your first steps in programming or looking to deepen your Python expertise, this resource offers interactive notebooks, practical examples, and clear explanations that make learning both effective and enjoyable.
 
 ---
 
 ## 🌍 Multilingual Support
 
-This documentation is now available in **three languages**, making Python learning accessible to a broader audience:
+This documentation is available in **three languages**, making Python learning accessible to a broader audience:
 
-| Language | File | Description |
-|----------|------|-------------|
-| 🇬🇧 **English** | `index.eng.md` | Complete English documentation |
-| 🇲🇲 **Myanmar (Burmese)** | `index.mm.md` | Myanmar language documentation (မြန်မာဘာသာ) |
-| 🦜 **Hakha Chin** | `index.hk.md` | Hakha Chin language documentation |
+| Language | Documentation | Description |
+|----------|---------------|-------------|
+| 🇬🇧 **English** | [View English Version](index.eng.md) | Complete English documentation |
+| 🇲🇲 **Myanmar** | [View Myanmar Version](index.mm.md) | Myanmar language documentation (မြန်မာဘာသာ) |
+| 🦜 **Hakha Chin** | [View Hakha Chin Version](index.hk.md) | Hakha Chin language documentation |
 
-### How to Use Different Language Versions
+### Chapter Availability
 
-#### Online Documentation
-When viewing the online documentation at [https://Joseph1997-eng.github.io/Let-Us-Python-Book-/](https://Joseph1997-eng.github.io/Let-Us-Python-Book-/), you can access different language versions through the navigation menu or by directly accessing:
-
-- English: `index.eng.md`
-- Myanmar: `index.mm.md`
-- Hakha Chin: `index.hk.md`
-
-#### Local Documentation
-When running the documentation locally with `mkdocs serve`, navigate to the respective language files in the `docs/` directory to view content in your preferred language.
-
-#### Chapter Content
-Currently, **Chapter 27** is available in all three languages:
-- `Chapter 27.eng.md` (English)
-- `Chapter 27.mm.md` (Myanmar)
-- `Chapter 27.hk.md` (Hakha Chin)
+Currently available chapters in multiple languages:
+- **Chapters 1-9**: Available in English and Hakha Chin
+- **Chapter 27**: Available in all three languages (English, Myanmar, Hakha Chin)
 
 > [!NOTE]
-> More chapters will be progressively translated into all three languages. Stay tuned for updates!
+> More chapters are being progressively translated into all three languages. Stay tuned for updates!
 
 ---
 
@@ -49,22 +37,23 @@ Currently, **Chapter 27** is available in all three languages:
 
 This comprehensive guide covers everything from fundamentals to advanced concepts:
 
-*   **Core Fundamentals**: Master variables, data types, loops, and functions
-*   **Data Structures & Algorithms**: Build efficient solutions with Python's powerful data structures
-*   **Object-Oriented Programming**: Dive deep into classes, inheritance, polymorphism, and design patterns
-*   **File Handling & Exceptions**: Learn robust error handling and file operations
-*   **Advanced Python Concepts**: Explore decorators, generators, context managers, and more
-*   **Data Science with NumPy**: High-performance scientific computing (Chapter 27)
-*   **Modern Best Practices**: Write clean, efficient, and Pythonic code
+* **Core Fundamentals**: Master variables, data types, loops, and functions
+* **Control Flow**: Understand decision-making and repetition in code
+* **Data Structures**: Build efficient solutions with Python's powerful lists, dictionaries, and sets
+* **Object-Oriented Programming**: Dive deep into classes, inheritance, and design patterns
+* **File Handling & Exceptions**: Learn robust error handling and file operations
+* **Advanced Python**: Explore decorators, generators, context managers, and more
+* **Scientific Computing**: High-performance numerical operations with NumPy
+* **Modern Best Practices**: Write clean, efficient, and Pythonic code
 
 ## 📚 Repository Contents
 
 This repository provides a rich learning experience through:
 
-- **Interactive Jupyter Notebooks**: Hands-on chapters with executable code examples
-- **Chapter-wise Organization**: Structured progression through Python concepts
-- **Practical Examples**: Real-world code snippets and exercises
-- **Clear Explanations**: Detailed commentary and concept breakdowns
+* **Interactive Jupyter Notebooks**: Hands-on chapters with executable code examples
+* **Chapter-wise Organization**: Structured progression through Python concepts
+* **Practical Examples**: Real-world code snippets and exercises
+* **Clear Explanations**: Detailed commentary and concept breakdowns
 
 ### Available Chapters
 
@@ -88,29 +77,31 @@ This repository provides a rich learning experience through:
 
 This repository is perfect for:
 
-- 🌱 **Beginners** starting their Python programming journey
-- 🎓 **Students** seeking to strengthen their Python fundamentals
-- 💼 **Developers** preparing for technical interviews
-- 🔄 **Career Switchers** looking for structured, chapter-based learning materials
-- 🚀 **Enthusiasts** who want to build real-world projects with Python
+* 🌱 **Beginners** starting their Python programming journey
+* 🎓 **Students** seeking to strengthen their Python fundamentals
+* 💼 **Developers** preparing for technical interviews
+* 🔄 **Career Switchers** looking for structured learning materials
+* 🚀 **Enthusiasts** who want to build real-world projects with Python
 
 ## 🛠️ Getting Started
 
 ### Prerequisites
 
-- Python 3.7 or higher
-- Jupyter Notebook
-- Basic understanding of programming concepts (helpful but not required)
+* Python 3.7 or higher
+* Jupyter Notebook
+* Basic understanding of programming concepts (helpful but not required)
 
 ### Installation
 
-1.  **Clone the repository**
+1. **Clone the repository**
+
     ```bash
     git clone https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git
     cd Let-Us-Python-Book-
     ```
 
-2.  **Install dependencies**
+2. **Install dependencies**
+
     ```bash
     # Install Jupyter Notebook
     pip install jupyter
@@ -122,15 +113,16 @@ This repository is perfect for:
     pip install mkdocs-material
     ```
 
-3.  **Launch Jupyter Notebook**
+3. **Launch Jupyter Notebook**
+
     ```bash
     jupyter notebook
     ```
 
-4.  **Navigate and Learn**
-    - Open chapter notebooks to explore specific topics
-    - Execute code cells to see examples in action
-    - Study explanations and concepts at your own pace
+4. **Navigate and Learn**
+    * Open chapter notebooks to explore specific topics
+    * Execute code cells to see examples in action
+    * Study explanations and concepts at your own pace
 
 ### View Online Documentation
 
@@ -139,58 +131,59 @@ Prefer reading online? Visit our beautifully formatted documentation site:
 🌐 **[https://Joseph1997-eng.github.io/Let-Us-Python-Book-/](https://Joseph1997-eng.github.io/Let-Us-Python-Book-/)**
 
 Or run the docs locally:
+
 ```bash
 mkdocs serve
 ```
+
 Then open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 
-## 📘 About the Book
+## 📘 About the Resources
 
 **"Let Us Python"** is a comprehensive guide that has helped thousands of learners master Python programming. The 5th Edition covers modern Python practices and includes:
 
-- Clear, beginner-friendly explanations
-- Progressive difficulty levels
-- Extensive code examples
-- Practice exercises and challenges
-- Real-world application scenarios
+* Clear, beginner-friendly explanations
+* Progressive difficulty levels
+* Extensive code examples
+* Practice exercises and challenges
+* Real-world application scenarios
 
-**Original Authors**: Yashavant Kanetkar, Aditya Kanetkar  
-**Edition**: 5th Edition  
+**Resources**: Yashavant Kanetkar, Aditya Kanetkar, DataCamp, Python notes from GoalKicker  
 **Curated by**: Joseph
 
 ## 🤝 Contributing
 
 Your contributions make this resource better for everyone! We welcome:
 
-- 📝 **Content Improvements**: Clarifications, additional examples, or corrections
-- 🐛 **Bug Reports**: Found an error? Let us know!
-- 💡 **Suggestions**: Ideas for new chapters or topics
-- 🌟 **Enhancements**: Better explanations or code optimizations
+* 📝 **Content Improvements**: Clarifications, additional examples, or corrections
+* 🐛 **Bug Reports**: Found an error? Let us know!
+* 💡 **Suggestions**: Ideas for new chapters or topics
+* 🌟 **Enhancements**: Better explanations or code optimizations
 
 **How to contribute:**
 
-1.  Fork the repository
-2.  Create a new branch (`git checkout -b feature/amazing-improvement`)
-3.  Make your changes
-4.  Commit with clear messages (`git commit -m "Add detailed explanation for decorators"`)
-5.  Push to your branch (`git push origin feature/amazing-improvement`)
-6.  Open a Pull Request
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/amazing-improvement`)
+3. Make your changes
+4. Commit with clear messages (`git commit -m "Add detailed explanation for decorators"`)
+5. Push to your branch (`git push origin feature/amazing-improvement`)
+6. Open a Pull Request
 
 ## 📞 Contact & Support
 
 Have questions or feedback? We'd love to hear from you!
 
-- 🐛 **Issues**: [Open an issue](https://github.com/Joseph1997-eng/Let-Us-Python-Book-/issues)
-- 💬 **Discussions**: Share your learning journey
-- 📧 **Repository**: [Let-Us-Python-Book-](https://github.com/Joseph1997-eng/Let-Us-Python-Book-)
+* 🐛 **Issues**: [Open an issue](https://github.com/Joseph1997-eng/Let-Us-Python-Book-/issues)
+* 💬 **Discussions**: Share your learning journey
+* 📧 **Repository**: [Let-Us-Python-Book-](https://github.com/Joseph1997-eng/Let-Us-Python-Book-)
 
 ## 📄 License
 
-This repository is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This repository is licensed under the **MIT License** - see the LICENSE file for details.
 
 ## ⚠️ Disclaimer
 
-This repository contains educational materials derived from **"Let Us Python" (5th Edition)**. It is intended for learning purposes only. For the complete and original content, please refer to the official book by Yashavant Kanetkar and Aditya Kanetkar.
+This repository contains educational materials for learning purposes only. The content is curated from various resources including "Let Us Python" (5th Edition) by Yashavant Kanetkar and Aditya Kanetkar, DataCamp courses, and GoalKicker Python notes. For complete and original content, please refer to the respective official sources.
 
 ---
 
@@ -200,4 +193,4 @@ This repository contains educational materials derived from **"Let Us Python" (5
 
 ---
 
-*Last Updated: December 4, 2025*
+*Last Updated: January 3, 2026*
