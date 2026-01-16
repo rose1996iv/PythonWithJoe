@@ -585,7 +585,7 @@ print(a)
 
 ### Problem 8.6 
 
-Write a program to add two 3 x 4 matrices. Program 
+Write a program to add two 3 x 4 matrices.
 
 <details>
 <summary>Program</summary>
