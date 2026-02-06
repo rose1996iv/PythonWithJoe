@@ -1,0 +1,3057 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Professional Python programming documentation with multilingual support">
+      
+      
+        <meta name="author" content="Joseph">
+      
+      
+        <link rel="canonical" href="https://Joseph1997-eng.github.io/Let-Us-Python-Book-/mm/chapter-5/">
+      
+      
+        <link rel="prev" href="../chapter-4/">
+      
+      
+        <link rel="next" href="../chapter-6/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../joseph.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 5 - Let Us Python Book</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/print-site.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-material.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/social-card.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-5-decision-control-instructions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Let Us Python Book" class="md-header__button md-logo" aria-label="Let Us Python Book" data-md-component="logo">
+      
+  <img src="../../joseph.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Let Us Python Book
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 5
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Joseph1997-eng/Let-Us-Python-Book-" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Let-Us-Python-Book-
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../index.eng/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🇬🇧 English
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../index.mm/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🇲🇲 Myanmar
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../index.hk/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🦜 Hakha Chin
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../print_page/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Print this page
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Let Us Python Book" class="md-nav__button md-logo" aria-label="Let Us Python Book" data-md-component="logo">
+      
+  <img src="../../joseph.png" alt="logo">
+
+    </a>
+    Let Us Python Book
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Joseph1997-eng/Let-Us-Python-Book-" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Let-Us-Python-Book-
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🇬🇧 English
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🇬🇧 English
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.eng/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eng/chapter-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eng/chapter-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eng/chapter-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eng/chapter-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eng/chapter-5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eng/chapter-6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eng/chapter-7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eng/chapter-8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eng/chapter-9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eng/chapter-27.eng/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 27
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🇲🇲 Myanmar
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🇲🇲 Myanmar
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.mm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#keynote" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Keynote
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Keynote">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-what-are-decision-control-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 What are Decision Control Instructions?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-nuances-of-conditions-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Nuances of Conditions (Conditions တွေရဲ့ သိမ်မွေ့တဲ့ အချက်များ)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-logical-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Logical Operators
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-conditional-expressions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Conditional Expressions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-all-and-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 all( ) and any( )
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-receiving-input-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Receiving Input (Input လက်ခံရယူခြင်း)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#57-pass-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7 Pass Statement
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problems
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-52" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-54" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-55" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-56" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercise">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-answer-the-following-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [A] Answer the following questions:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-program-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [B] အောက်ပါ Program တို့၏ Output ကို ဖော်ပြပါ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-program" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [C] အောက်ပါ Program တို့တွင် အမှားများရှိပါက ဖော်ပြပါ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-a-10-b-12-c-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [D] a = 10, b = 12, c = 0, ဖြစ်လျှင် အောက်ပါတို့၏ တန်ဖိုးများကို ဖော်ပြပါ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [E] အောက်ပါတို့အတွက် အဖြေများကို ရေးသားပေးပါ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-27.mm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 27
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🦜 Hakha Chin
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🦜 Hakha Chin
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.hk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hk/chapter-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hk/chapter-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hk/chapter-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hk/chapter-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hk/chapter-5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hk/chapter-6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hk/chapter-7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hk/chapter-8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hk/chapter-9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hk/chapter-27.hk/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 27
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../print_page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Print this page
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#keynote" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Keynote
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Keynote">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-what-are-decision-control-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 What are Decision Control Instructions?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-nuances-of-conditions-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Nuances of Conditions (Conditions တွေရဲ့ သိမ်မွေ့တဲ့ အချက်များ)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-logical-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Logical Operators
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-conditional-expressions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Conditional Expressions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-all-and-any" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 all( ) and any( )
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-receiving-input-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Receiving Input (Input လက်ခံရယူခြင်း)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#57-pass-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7 Pass Statement
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problems
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem-51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.1
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-52" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-54" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-55" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.5
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-56" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem 5.6
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercise">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-answer-the-following-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [A] Answer the following questions:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-program-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [B] အောက်ပါ Program တို့၏ Output ကို ဖော်ပြပါ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-program" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [C] အောက်ပါ Program တို့တွင် အမှားများရှိပါက ဖော်ပြပါ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-a-10-b-12-c-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [D] a = 10, b = 12, c = 0, ဖြစ်လျှင် အောက်ပါတို့၏ တန်ဖိုးများကို ဖော်ပြပါ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [E] အောက်ပါတို့အတွက် အဖြေများကို ရေးသားပေးပါ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../index.mm/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    🇲🇲 Myanmar
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/Joseph1997-eng/Let-Us-Python-Book-/edit/master/docs/mm/chapter-5.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/Joseph1997-eng/Let-Us-Python-Book-/raw/master/docs/mm/chapter-5.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="chapter-5-decision-control-instructions">Chapter 5 Decision Control Instructions<a class="headerlink" href="#chapter-5-decision-control-instructions" title="Permanent link">&para;</a></h1>
+<div class="chapter-social-card">
+  <div class="chapter-info">
+    <div class="chapter-number">CHAPTER 5</div>
+    <h1 class="chapter-title">Decision Control Instructions</h1>
+  </div>
+  <div class="chapter-logo">
+    <img src="/Let-Us-Python-Book-/Logo.png" alt="Let Us Python Book Logo">
+  </div>
+  <div class="chapter-social-links">
+    <a href="https://github.com/Joseph1997-eng" target="_blank" class="social-icon" title="GitHub">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/robinson-joseph-61734a17a/" target="_blank" class="social-icon" title="LinkedIn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+      </svg>
+    </a>
+    <a href="https://www.facebook.com/josephsaimonn" target="_blank" class="social-icon" title="Facebook">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<h2 id="keynote">Keynote<a class="headerlink" href="#keynote" title="Permanent link">&para;</a></h2>
+<h3 id="51-what-are-decision-control-instructions">5.1 What are Decision Control Instructions?<a class="headerlink" href="#51-what-are-decision-control-instructions" title="Permanent link">&para;</a></h3>
+<p>အခုချိန်ထိ ကျွန်တော်တို့ ရေးခဲ့သမျှ Program တွေမှာ Code တွေက တစ်ကြောင်းပြီးတစ်ကြောင်း အစဉ်လိုက် (<strong>Sequentially</strong>) အလုပ်လုပ်သွားတာ ဖြစ်ပါတယ်။</p>
+<p>ဒါပေမယ့် Program ရဲ့ အလုပ်လုပ်ပုံ အစီအစဉ် (Sequence of execution) ကို လိုအပ်သလို ပြောင်းလဲချင်တယ်ဆိုရင်တော့ အောက်ပါ (၂) မျိုးကို အသုံးပြုနိုင်ပါတယ် -</p>
+<ul>
+<li><strong>Decision control instruction:</strong> အခြေအနေပေါ်မူတည်ပြီး ဆုံးဖြတ်ချက်ချကာ လမ်းကြောင်းပြောင်းခြင်း (Selection)။</li>
+<li><strong>Repetition control instruction:</strong> အလုပ်တစ်ခုကို ထပ်ခါထပ်ခါ လုပ်ဆောင်ခြင်း (Loops/Iteration)။</li>
+</ul>
+<hr />
+<p><strong>Decision Control Instruction</strong></p>
+<p>Program တစ်ခုမှာ ဆုံးဖြတ်ချက် (Decisions) ချမှတ်ဖို့အတွက် အဓိက နည်းလမ်း (၃) ခုရှိပါတယ်။ </p>
+<ol>
+<li>ပထမဦးဆုံး <strong><code>if</code> condition</strong> အကြောင်းကို ကြည့်ကြပါစို့။</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">if condition</p>
+<ul>
+<li>Condition (အခြေအနေ) တစ်ခု <strong>မှန်ကန်ခဲ့ရင် (True)</strong> သတ်မှတ်ထားတဲ့ အလုပ်ကို လုပ်မယ်၊ မမှန်ရင် (False) ကျော်သွားမယ်ဆိုတဲ့ ပုံစံဖြစ်ပါတယ်။</li>
+</ul>
+<div class="language-python highlight"><span class="filename">if condition Syntax</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">if</span> <span class="n">condition</span> <span class="p">:</span>      <span class="c1"># Condition ပြီးရင် Colon (:) မဖြစ်မနေ ပါရပါမယ်</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">statement1</span>      <span class="c1"># Indentation (Space) ခံပြီး ရေးရပါမယ်</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">statement2</span>
+</span></code></pre></div>
+</div>
+<ol>
+<li><strong><code>if else</code> condition</strong> ကို ကြည့်ကြပါစို့ </li>
+</ol>
+<p><img alt="Image of if else flowchart" src="../../assests/if%20else.jpg" /></p>
+<div class="admonition note">
+<p class="admonition-title">if condition : else</p>
+<div class="language-python highlight"><span class="filename">if condition : else</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">if</span> <span class="n">condition</span> <span class="p">:</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  <span class="n">statement1</span> 
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  <span class="n">statement2</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="k">else</span> <span class="p">:</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>  <span class="n">statement3</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>  <span class="n">statement4</span>
+</span></code></pre></div>
+</div>
+<ol>
+<li><strong><code>if condition1 : elif condition2 : elif condition3 : else :</code></strong> ကို ကြည့်ကြပါစို့</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">if condition1 : elif condition2 : elif condition3 : else :</p>
+<div class="language-python highlight"><span class="filename">if condition1 : elif condition2 : elif condition3 : else :</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">if</span> <span class="n">condition1</span> <span class="p">:</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  <span class="n">statement1</span> 
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  <span class="n">statement2</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="k">elif</span> <span class="n">condition2</span> <span class="p">:</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>  <span class="n">statement3</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="k">elif</span> <span class="n">condition3</span> <span class="p">:</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>  <span class="n">statement4</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="k">else</span> <span class="p">:</span> 
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>  <span class="n">statement5</span>
+</span></code></pre></div>
+</div>
+<ul>
+<li><code>if</code>, <code>else</code>, <code>elif</code> တို့ရဲ့ နောက်ဆုံးမှာ <strong>Colon (:)</strong> ကို မဖြစ်မနေ ထည့်ပေးရပါမယ်။</li>
+<li><code>if</code> block, <code>else</code> block နဲ့ <code>elif</code> block အောက်က Statements တွေကို <strong>Indent</strong> လုပ်ပြီး (Space ခွာပြီး) ရေးရပါမယ်။ အဲဒီလို Indent လုပ်ထားတဲ့ Statements တွေကို <strong>Block of statements</strong> တစ်ခုအနေနဲ့ သတ်မှတ်ပါတယ်။</li>
+<li><strong>Indentation</strong> ကို Statements တွေ အုပ်စုဖွဲ့ဖို့ (Group လုပ်ဖို့) အသုံးပြုပါတယ်။ Indentation အတွက် <strong>4 spaces</strong> (သို့မဟုတ်) <strong>Tab</strong> တစ်ချက်ကို အသုံးပြုပါ။ <strong>Tabs</strong> နဲ့ <strong>Spaces</strong> တွေကို ရောမသုံးပါနဲ့။ Screen ပေါ်မှာ ကြည့်ရင် အဆင်ပြေနေသလို ထင်ရပေမယ့် တကယ် Run တဲ့အခါ <strong>Error</strong> တက်ပါလိမ့်မယ်။</li>
+<li>ပထမပုံစံ (<code>if</code> only) မှာ <code>else</code> နဲ့ <code>elif</code> က မပါလည်း ရပါတယ် (<strong>Optional</strong> ဖြစ်ပါတယ်)။</li>
+<li>ဒုတိယပုံစံ (<code>if-else</code>) မှာ Condition က <strong>True</strong> ဖြစ်ရင် <code>if</code> block ထဲက Statements တွေ အကုန်အလုပ်လုပ်မယ်။ Condition က <strong>False</strong> ဖြစ်ရင် <code>else</code> block ထဲက Statements တွေ အလုပ်လုပ်ပါမယ်။</li>
+<li>တတိယပုံစံ (<code>if-elif-else</code>) မှာ Condition တစ်ခု မမှန်ခဲ့ရင် (Fail ဖြစ်ရင်)၊ နောက်ထပ် <code>elif</code> block ထဲက Condition ကို ဆက်စစ်သွားပါမယ်။ Condition တွေ အားလုံး မမှန်တော့မှသာ <code>else</code> block က အလုပ်လုပ်ပါမယ်။</li>
+<li><code>if-else</code> statements တွေကို <strong>Nest</strong> လုပ်လို့ရပါတယ် (တဆင့်ပြီးတဆင့် ထပ်ခါထပ်ခါ အထဲမှာ ထပ်ထည့်ရေးလို့ရပါတယ်)။ Program logic လိုအပ်ချက်ရှိသလောက် အနက်ရှိုင်းဆုံးအထိ Nest လုပ်သွားနိုင်ပါတယ်။</li>
+</ul>
+<h3 id="52-nuances-of-conditions-conditions">5.2 Nuances of Conditions (Conditions တွေရဲ့ သိမ်မွေ့တဲ့ အချက်များ)<a class="headerlink" href="#52-nuances-of-conditions-conditions" title="Permanent link">&para;</a></h3>
+<p><strong>Condition</strong> တစ်ခုကို <strong>Relational operators</strong> တွေဖြစ်တဲ့ <code>&lt;, &gt;, &lt;=, &gt;=, ==, !=</code> တွေကို အသုံးပြုပြီး တည်ဆောက်ပါတယ်။</p>
+<p><div class="language-python highlight"><span class="filename">Condition is built using relation operators</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="mi">10</span> <span class="o">&lt;</span> <span class="mi">20</span> <span class="c1"># True ရပါတယ် (၁၀ က ၂၀ ထက် ငယ်လို့ပါ)</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="s1">&#39;Santosh&#39;</span> <span class="o">&lt;</span> <span class="s1">&#39;Adi&#39;</span> <span class="c1"># False ရပါတယ် (Alphabetical order အတိုင်း စစ်ပါတယ် - S က A ထက် နောက်ကျမှလာလို့ တန်ဖိုးကြီးပါတယ်)</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="s1">&#39;gang&#39;</span> <span class="o">&lt;</span> <span class="s1">&#39;God&#39;</span> <span class="c1"># False ရပါတယ် (Lowercase တွေက Uppercase တွေထက် ASCII value ပိုကြီးလို့ပါ)</span>
+</span></code></pre></div>
+<code>a = b</code> က Assignment ဖြစ်ပါတယ်၊ <code>a == b</code> က Comparison ဖြစ်ပါတယ်။</p>
+<p><strong>Ranges</strong> သို့မဟုတ် <strong>Multiple equalities</strong> (ညီမျှခြင်း ရှိ/မရှိ အများကြီးစစ်တာ) တွေကို သဘာဝကျကျ ဆက်တိုက်ရေးလို့ ရပါတယ်။</p>
+<p><div class="language-python highlight"><span class="filename">Ranges or multiple equalities can be checked more naturally</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">if</span> <span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="n">c</span> <span class="p">:</span>      <span class="c1"># b က a နဲ့ c ကြားမှာ ရှိ၊ မရှိ စစ်ဆေးပါတယ်</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="k">if</span> <span class="n">a</span> <span class="o">==</span> <span class="n">b</span> <span class="o">==</span> <span class="n">c</span> <span class="p">:</span>    <span class="c1"># သုံးခုလုံး တူညီခြင်း ရှိ၊ မရှိ စစ်ဆေးပါတယ်</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c1"># 10 != 10 က False ဖြစ်ပေမယ့်၊ ဒီနေရာမှာ True ထွက်ပါတယ်</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="c1"># ဘာလို့လဲဆိုတော့ Python က (10 != 20) and (20 != 10) ဆိုပြီး ခွဲစစ်သွားလို့ပါ</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="k">if</span> <span class="mi">10</span> <span class="o">!=</span> <span class="mi">20</span> <span class="o">!=</span> <span class="mi">10</span> <span class="p">:</span> <span class="c1"># True ရပါတယ်</span>
+</span></code></pre></div>
+သုညမဟုတ်တဲ့ ကိန်းဂဏန်း (positive, negative, integer, float) မှန်သမျှကို <code>True</code> လို့ သတ်မှတ်ပြီး၊ 0 ကိုတော့ <code>False</code> လို့ သတ်မှတ်ပါတယ်။</p>
+<div class="language-python highlight"><span class="filename">Any non-zero number (positive, negative, integer, float) is treated as True, and 0 as False</span><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="mf">3.14</span><span class="p">))</span> <span class="c1"># True ထွက်ပါတယ် (Non-zero မို့လို့ပါ)</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="mi">25</span><span class="p">))</span>   <span class="c1"># True ထွက်ပါတယ်</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="nb">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>    <span class="c1"># False ထွက်ပါတယ်</span>
+</span></code></pre></div>
+<h3 id="53-logical-operators">5.3 Logical Operators<a class="headerlink" href="#53-logical-operators" title="Permanent link">&para;</a></h3>
+<p>ပိုမိုရှုပ်ထွေးတဲ့ ဆုံးဖြတ်ချက်တွေ (Complex decision making) ချမှတ်ဖို့အတွက် <strong>Logical operators</strong> တွေဖြစ်တဲ့ <code>and</code>, <code>or</code> နဲ့ <code>not</code> တို့ကို အသုံးပြုနိုင်ပါတယ်။</p>
+<p><strong>Conditions</strong> တွေကို <code>and</code> နဲ့ <code>or</code> အသုံးပြုပြီး အောက်ပါအတိုင်း ပေါင်းစပ်နိုင်ပါတယ် -</p>
+<div class="language-python highlight"><span class="filename">Conditions can be combined using and and or</span><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">cond1</span> <span class="ow">and</span> <span class="n">cond2</span> <span class="c1"># နှစ်ခုလုံး True ဖြစ်မှသာ True ကို ပြန်ပေးပါတယ် (မဟုတ်ရင် False ပါ)</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">cond1</span> <span class="ow">or</span> <span class="n">cond2</span>  <span class="c1"># တစ်ခုခု True ဖြစ်တာနဲ့ True ကို ပြန်ပေးပါတယ် (အားလုံး False မှသာ False ပါ)</span>
+</span></code></pre></div>
+<p>တိတိကျကျပြောရရင် <code>and</code>/<code>or</code> ကိုသုံးတဲ့အခါ <strong>Conditions</strong> တွေချည်းပဲ ဖြစ်နေစရာ မလိုပါဘူး။ <strong>Conditions</strong> နေရာမှာ <strong>Valid expression</strong> မှန်သမျှကို အစားထိုးသုံးလို့ ရပါတယ်။ ဒါကြောင့် ဒီလိုသုံးတဲ့အခါ ရလဒ်က <strong>True/False</strong> အမြဲဖြစ်နေမှာ မဟုတ်ဘဲ Expression ရဲ့ တကယ့်တန်ဖိုး (<strong>Actual Value</strong>) ဖြစ်နေနိုင်ပါတယ်။</p>
+<p><strong><code>and</code> Operator အလုပ်လုပ်ပုံ:</strong>
+* Expression တွေကို ဘယ်ကနေ ညာ လိုက်စစ်ပါတယ် (<strong>Evaluate</strong> လုပ်ပါတယ်)။
+* တကယ်လို့ အားလုံးက <strong>True</strong> (Truthy values) ဖြစ်နေရင်၊ <strong>နောက်ဆုံး Expression</strong> ရဲ့ တန်ဖိုးကို Return ပြန်ပေးပါတယ်။
+* တကယ်လို့ <strong>False</strong> (Falsy value) တစ်ခုခုတွေ့တာနဲ့ ဆက်မစစ်တော့ဘဲ အဲဒီ <strong>False ဖြစ်စေတဲ့ တန်ဖိုး</strong> ကို ချက်ချင်း Return ပြန်ပေးပါတယ် (<strong>Short-circuit</strong> ဖြစ်သွားပါတယ်)။</p>
+<div class="language-python highlight"><span class="filename">and Operator Logic</span><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">40</span> 
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">b</span> <span class="o">=</span> <span class="mi">30</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="c1"># အားလုံး True ဖြစ်နေလို့ နောက်ဆုံးတန်ဖိုး 35 ကို x ထဲထည့်ပါတယ်</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="c1"># 75 (True), a&gt;=20 (True), b&lt;60 (True), 35 (True) -&gt; Result: 35</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="n">x</span> <span class="o">=</span> <span class="mi">75</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">20</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="mi">60</span> <span class="ow">and</span> <span class="mi">35</span> 
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="c1"># b &lt; 15 က False ဖြစ်သွားလို့ အဲဒီ False တန်ဖိုးကိုပဲ y ထဲထည့်ပါတယ်</span>
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="c1"># -30 (True), a&gt;=20 (True), b&lt;15 (False) -&gt; Result: False</span>
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="n">y</span> <span class="o">=</span> <span class="o">-</span><span class="mi">30</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">20</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="mi">15</span> <span class="ow">and</span> <span class="mi">35</span> 
+</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>
+</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="c1"># 0 က False (Falsy) ဖြစ်လို့ 0 ကိုပဲ z ထဲထည့်ပါတယ် (နောက်ဆုံးက 35 ကို ဆက်မကြည့်တော့ပါ)</span>
+</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a><span class="c1"># -30 (True), a&gt;=20 (True), 0 (False) -&gt; Result: 0</span>
+</span><span id="__span-7-14"><a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a><span class="n">z</span> <span class="o">=</span> <span class="o">-</span><span class="mi">30</span> <span class="ow">and</span> <span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">20</span> <span class="ow">and</span> <span class="mi">0</span> <span class="ow">and</span> <span class="mi">35</span>
+</span></code></pre></div>
+<p><strong><code>or</code> Operator အလုပ်လုပ်ပုံ:</strong>
+* Expression တွေကို ဘယ်ကနေ ညာ လိုက်စစ်ပါတယ် (<strong>Evaluate</strong> လုပ်ပါတယ်)။
+* <strong>True</strong> (Truthy value) ဖြစ်တဲ့ ပထမဆုံး တန်ဖိုးကို တွေ့တာနဲ့ ကျန်တာတွေ ဆက်မစစ်တော့ဘဲ အဲဒီတန်ဖိုးကို ချက်ချင်း Return ပြန်ပေးပါတယ် (<strong>Short-circuit</strong> ဖြစ်သွားပါတယ်)။
+* တကယ်လို့ အားလုံးက <strong>False</strong> (Falsy values) ဖြစ်နေရင်တော့၊ <strong>နောက်ဆုံး Expression</strong> ရဲ့ တန်ဖိုးကို Return ပြန်ပေးပါတယ်။</p>
+<div class="language-python highlight"><span class="filename">or Operator Logic</span><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">40</span> 
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="n">b</span> <span class="o">=</span> <span class="mi">30</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="c1"># 75 က True (Truthy) ဖြစ်တာနဲ့ ချက်ချင်း 75 ကို x ထဲထည့်ပါတယ် (နောက်ကဟာတွေ ဆက်မကြည့်ပါ)</span>
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="c1"># Result: 75</span>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="n">x</span> <span class="o">=</span> <span class="mi">75</span> <span class="ow">or</span> <span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">20</span> <span class="ow">or</span> <span class="mi">60</span> 
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>
+</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="c1"># a &gt;= 20 က True ဖြစ်တဲ့အတွက် True ကို y ထဲထည့်ပါတယ်</span>
+</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a><span class="c1"># Result: True</span>
+</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a><span class="n">y</span> <span class="o">=</span> <span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">20</span> <span class="ow">or</span> <span class="mi">75</span> <span class="ow">or</span> <span class="mi">60</span> 
+</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>
+</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a><span class="c1"># a &lt; 20 (False), 0 (False), 35 (True) -&gt; ပထမဆုံးတွေ့တဲ့ True ဖြစ်တဲ့ 35 ကို z ထဲထည့်ပါတယ်</span>
+</span><span id="__span-8-13"><a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a><span class="c1"># Result: 35</span>
+</span><span id="__span-8-14"><a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a><span class="n">z</span> <span class="o">=</span> <span class="n">a</span> <span class="o">&lt;</span> <span class="mi">20</span> <span class="ow">or</span> <span class="mi">0</span> <span class="ow">or</span> <span class="mi">35</span>
+</span></code></pre></div>
+<p><strong><code>not</code> Operator</strong></p>
+<p><strong>Condition</strong> တစ်ခုရဲ့ ရလဒ်ကို <code>not</code> သုံးပြီး ပြောင်းပြန်လှန်နိုင်ပါတယ် (Negate လုပ်နိုင်ပါတယ်)။ <strong>True</strong> ဖြစ်နေရင် <strong>False</strong>၊ <strong>False</strong> ဖြစ်နေရင် <strong>True</strong> ဖြစ်သွားပါမယ်။</p>
+<p><div class="language-python highlight"><span class="filename">not Operator Logic</span><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="n">b</span> <span class="o">=</span> <span class="mi">20</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="c1"># a &lt;= b (10 &lt;= 20) က True ပါ၊ ဒါကို not ခံလိုက်တော့ False ရပါတယ်</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="c1"># ဒါက a &gt; b နဲ့ အဓိပ္ပာယ်တူပါတယ်</span>
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a><span class="ow">not</span> <span class="p">(</span><span class="n">a</span> <span class="o">&lt;=</span> <span class="n">b</span><span class="p">)</span> <span class="c1"># yields False</span>
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>
+</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="c1"># a &gt;= b (10 &gt;= 20) က False ပါ၊ ဒါကို not ခံလိုက်တော့ True ရပါတယ်</span>
+</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a><span class="c1"># ဒါက a &lt; b နဲ့ အဓိပ္ပာယ်တူပါတယ်</span>
+</span><span id="__span-9-10"><a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a><span class="ow">not</span> <span class="p">(</span><span class="n">a</span> <span class="o">&gt;=</span> <span class="n">b</span><span class="p">)</span> <span class="c1"># yields True</span>
+</span></code></pre></div>
+<strong>Shortcut for toggling values between 1 and 0:</strong></p>
+<p><strong>1</strong> နဲ့ <strong>0</strong> ကြား တန်ဖိုးတွေကို အပြန်အလှန်ပြောင်းလဲဖို့ (Toggle လုပ်ဖို့) <strong>Shortcut</strong> နည်းလမ်းဖြစ်ပါတယ်။</p>
+<p><div class="language-python highlight"><span class="filename">Toggling 0 and 1</span><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="c1"># input ယူပါမယ် (မှတ်ချက် - Python 3 မှာ input() က string ပြန်ပေးလို့ int() ခံသင့်ပါတယ်)</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="n">a</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter 0 or 1&#39;</span><span class="p">)</span> 
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="c1"># a က 1 (True) ဖြစ်နေရင် 0 (False) ပြောင်းလိုက်ပါမယ်</span>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="c1"># a က 0 (False) ဖြစ်နေရင် 1 (True) ပြောင်းလိုက်ပါမယ်</span>
+</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a><span class="n">a</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">a</span>
+</span></code></pre></div>
+<code>a = not b</code> လို့ ရေးလိုက်တဲ့အတွက် <code>b</code> ရဲ့ တန်ဖိုးက ပြောင်းလဲသွားမှာ မဟုတ်ပါဘူး (Original value မပျက်ပါဘူး)။</p>
+<p><strong>Operator</strong> တစ်ခုက အလုပ်လုပ်ဖို့အတွက် <strong>Operand</strong> (လုပ်ဆောင်ခံရမယ့် တန်ဖိုး) တစ်ခုတည်းသာ လိုအပ်တယ်ဆိုရင် အဲဒါကို <strong>Unary operator</strong> လို့ ခေါ်ပါတယ်။ တကယ်လို့ <strong>Operand</strong> နှစ်ခု လိုအပ်ရင်တော့ <strong>Binary operator</strong> လို့ ခေါ်ပါတယ်။</p>
+<ul>
+<li><code>not</code> - <strong>Operand</strong> 1 ခုပဲ လိုတဲ့အတွက် <strong>Unary operator</strong> ဖြစ်ပါတယ်။</li>
+<li><code>+, -, &lt;, &gt;, and, or</code> စတာတွေက - <strong>Operands</strong> 2 ခု လိုတဲ့အတွက် <strong>Binary operators</strong> တွေ ဖြစ်ကြပါတယ်။</li>
+</ul>
+<h3 id="54-conditional-expressions">5.4 Conditional Expressions<a class="headerlink" href="#54-conditional-expressions" title="Permanent link">&para;</a></h3>
+<p>Python မှာ <strong>Conditional expression</strong> (တနည်းအားဖြင့် <strong>Ternary Operator</strong>) လို့ခေါ်တဲ့ Decision-making လုပ်နိုင်တဲ့ နောက်ထပ်နည်းလမ်းတစ်ခု ရှိပါသေးတယ်။ သူက <code>if-else</code> ကို တစ်ကြောင်းတည်းနဲ့ ပြီးအောင်ရေးချင်တဲ့အခါ (<strong>One-liner</strong>) အရမ်းအသုံးဝင်ပါတယ်။</p>
+<p><strong>Syntax:</strong>
+<code>&lt;expr1&gt; if &lt;conditional expression&gt; else &lt;expr2&gt;</code></p>
+<p><strong>အလုပ်လုပ်ပုံ:</strong>
+1. <code>&lt;conditional expression&gt;</code> ကို အရင်ဆုံး <strong>Evaluate</strong> လုပ် (စစ်ဆေး) ပါတယ်။
+2. တကယ်လို့ <strong>True</strong> ဖြစ်ခဲ့ရင်၊ <code>&lt;expr1&gt;</code> ရဲ့ တန်ဖိုးကို ရလဒ်အဖြစ် ယူပါတယ်။
+3. တကယ်လို့ <strong>False</strong> ဖြစ်ခဲ့ရင်၊ <code>&lt;expr2&gt;</code> ရဲ့ တန်ဖိုးကို ရလဒ်အဖြစ် ယူပါတယ်။</p>
+<p><strong>Examples:</strong></p>
+<p><div class="language-python highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="n">age</span> <span class="o">=</span> <span class="mi">15</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="c1"># age &lt; 18 ဖြစ်တဲ့အတွက် True ပါ၊ ဒါကြောင့် if ရှေ့က &#39;minor&#39; ကို status ထဲထည့်ပါတယ်</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="n">status</span> <span class="o">=</span> <span class="s1">&#39;minor&#39;</span> <span class="k">if</span> <span class="n">age</span> <span class="o">&lt;</span> <span class="mi">18</span> <span class="k">else</span> <span class="s1">&#39;adult&#39;</span> 
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="n">sunny</span> <span class="o">=</span> <span class="kc">False</span>
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="c1"># sunny က False ဖြစ်တဲ့အတွက် else နောက်က &#39;room&#39; ကို ယူပါတယ်</span>
+</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a><span class="c1"># Output: Let&#39;s go to the room</span>
+</span><span id="__span-11-8"><a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Let&#39;s go to the&quot;</span><span class="p">,</span> <span class="s1">&#39;beach&#39;</span> <span class="k">if</span> <span class="n">sunny</span> <span class="k">else</span> <span class="s1">&#39;room&#39;</span><span class="p">)</span>
+</span><span id="__span-11-9"><a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>
+</span><span id="__span-11-10"><a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a><span class="n">humidity</span> <span class="o">=</span> <span class="mf">76.8</span>
+</span><span id="__span-11-11"><a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a><span class="c1"># humidity &gt; 75 ဖြစ်တဲ့အတွက် True ပါ၊ ဒါကြောင့် 25 ကို setting ထဲထည့်ပါတယ်</span>
+</span><span id="__span-11-12"><a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a><span class="n">setting</span> <span class="o">=</span> <span class="mi">25</span> <span class="k">if</span> <span class="n">humidity</span> <span class="o">&gt;</span> <span class="mi">75</span> <span class="k">else</span> <span class="mi">28</span>
+</span></code></pre></div>
+<strong>Conditional expressions</strong> တွေကို <strong>Nest</strong> လုပ်ပြီး (ထပ်ခါထပ်ခါ ခံပြီး) ရေးလို့ရပါတယ်။ ဒါက <code>if-elif-else</code> ladder ကို တစ်ကြောင်းတည်းနဲ့ ရေးသလိုပါပဲ။</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="c1"># wt = 55 ဖြစ်တဲ့အတွက် &#39;Prim&#39; ကို msg ထဲ Assign လုပ်သွားပါမယ်</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="n">wt</span> <span class="o">=</span> <span class="mi">55</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="n">msg</span> <span class="o">=</span> <span class="s1">&#39;Obese&#39;</span> <span class="k">if</span> <span class="n">wt</span> <span class="o">&gt;</span> <span class="mi">85</span> <span class="k">else</span> <span class="s1">&#39;Hefty&#39;</span> <span class="k">if</span> <span class="n">wt</span> <span class="o">&gt;</span> <span class="mi">60</span> <span class="k">else</span> <span class="s1">&#39;Prim&#39;</span>
+</span></code></pre></div>
+<h3 id="55-all-and-any">5.5 all( ) and any( )<a class="headerlink" href="#55-all-and-any" title="Permanent link">&para;</a></h3>
+<p><code>and</code> နဲ့ <code>or</code> logical operators တွေကို အများကြီးဆက်သုံးနေမယ့်အစား၊ <strong>Built-in functions</strong> တွေဖြစ်တဲ့ <code>all( )</code> နဲ့ <code>any( )</code> ကို အသုံးပြုပြီး ပိုသပ်ရပ်အောင် ရေးလို့ရပါတယ်။</p>
+<ul>
+<li><code>all(iterable)</code>: ပေးထားတဲ့ Conditions <strong>အားလုံး မှန်မှ (True)</strong> ရလဒ် <strong>True</strong> ကို ပြန်ပေးပါတယ် (<code>and</code> တွေချည်းပဲ ဆက်ထားတာနဲ့ တူပါတယ်)။</li>
+<li><code>any(iterable)</code>: ပေးထားတဲ့ Conditions တွေထဲက <strong>တစ်ခုခု မှန်တာနဲ့ (At least one True)</strong> ရလဒ် <strong>True</strong> ကို ပြန်ပေးပါတယ် (<code>or</code> တွေချည်းပဲ ဆက်ထားတာနဲ့ တူပါတယ်)။</li>
+</ul>
+<p>အသုံးပြုပုံကို အောက်ပါ Program မှာ လေ့လာနိုင်ပါတယ် -</p>
+<p><div class="language-python highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="c1"># all() ဥပမာ</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="c1"># a &gt; 5 (True), b &gt; 20 (False), c &gt; 15 (True)</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="c1"># b &gt; 20 က False ဖြစ်နေတဲ့အတွက် (အားလုံး True မဖြစ်တော့လို့) False ပြန်ပေးပါတယ်</span>
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="n">res</span> <span class="o">=</span> <span class="nb">all</span><span class="p">((</span><span class="n">a</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">,</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="mi">20</span><span class="p">,</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="mi">15</span><span class="p">))</span>
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a><span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="p">)</span> <span class="c1"># prints False</span>
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="c1"># any() ဥပမာ</span>
+</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a><span class="c1"># Conditions တွေထဲက တစ်ခုခု True ဖြစ်တာနဲ့ True ပါ</span>
+</span><span id="__span-13-11"><a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a><span class="c1"># a &gt; 5 က True ဖြစ်နေတဲ့အတွက် True ပြန်ပေးပါတယ်</span>
+</span><span id="__span-13-12"><a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a><span class="n">res</span> <span class="o">=</span> <span class="nb">any</span><span class="p">((</span><span class="n">a</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">,</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="mi">20</span><span class="p">,</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="mi">15</span><span class="p">))</span>
+</span><span id="__span-13-13"><a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a><span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="p">)</span> <span class="c1"># prints True</span>
+</span></code></pre></div>
+<strong>မှတ်ချက်:</strong>
+<code>all( )</code> နဲ့ <code>any( )</code> နှစ်ခုလုံးက <strong>Iterable type</strong> (ဥပမာ <code>string</code>, <code>list</code>, <code>tuple</code>, <code>set</code>, <code>dictionary</code>) ဖြစ်တဲ့ <strong>Single parameter</strong> (Parameter တစ်ခုတည်း) ကိုပဲ လက်ခံပါတယ်။
+အပေါ်က ဥပမာမှာတော့ Condition ၃ ခုပါဝင်တဲ့ <strong>Tuple</strong> တစ်ခုကို Argument အနေနဲ့ ပေးပို့ထားတာ ဖြစ်ပါတယ်။ တကယ်လို့ <strong>Dictionary</strong> ကို ပေးလိုက်မယ်ဆိုရင်တော့ သူ့ရဲ့ <strong>Keys</strong> တွေက True ဖြစ်/မဖြစ်ကို စစ်ဆေးသွားမှာ ဖြစ်ပါတယ်။</p>
+<ul>
+<li><code>any( )</code>: Parameter ထဲက <strong>Element</strong> အနည်းဆုံး တစ်ခု <strong>True</strong> ဖြစ်တာနဲ့ <strong>True</strong> ပြန်ပေးပါတယ်။</li>
+<li><code>all( )</code>: Parameter ထဲက <strong>Elements</strong> အားလုံး <strong>True</strong> ဖြစ်မှသာ <strong>True</strong> ပြန်ပေးပါတယ်။</li>
+</ul>
+<hr />
+<h3 id="56-receiving-input-input">5.6 Receiving Input (Input လက်ခံရယူခြင်း)<a class="headerlink" href="#56-receiving-input-input" title="Permanent link">&para;</a></h3>
+<p><code>print( )</code> function ကို Screen ပေါ်မှာ Output ထုတ်ဖို့ သုံးသလိုမျိုး၊ <strong><code>input( )</code> built-in function</strong> ကိုတော့ Keyboard ကနေ <strong>Input values</strong> တွေကို လက်ခံရယူဖို့ အသုံးပြုပါတယ်။</p>
+<p><code>input( )</code> function က အမြဲတမ်း <strong>String</strong> ကိုပဲ Return ပြန်ပေးပါတယ်။ ဆိုလိုတာက 23 လို့ ရိုက်ထည့်လိုက်ရင် Number 23 မဟုတ်ဘဲ String <code>'23'</code> ကို ရရှိမှာပါ။
+ဒါကြောင့် ဒီ Input တွေကို ဂဏန်းတွေအနေနဲ့ တွက်ချက်မှု (Arithmetic) လုပ်ချင်တယ်ဆိုရင် အောက်ပါအတိုင်း <strong>int</strong> သို့မဟုတ် <strong>float</strong> ကို <strong>Convert</strong> (ပြောင်းလဲ) ပေးဖို့ လိုအပ်ပါတယ်။</p>
+<div class="language-python highlight"><span class="filename">Receiving User Input</span><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="c1"># String input ယူခြင်း</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="n">n</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter your name: &#39;</span><span class="p">)</span>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="c1"># Integer input ယူခြင်း (input ယူပြီးတာနဲ့ int() နဲ့ convert လုပ်ပါတယ်)</span>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="n">age</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter your age: &#39;</span><span class="p">))</span>
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="c1"># Float input ယူခြင်း (input ယူပြီးတာနဲ့ float() နဲ့ convert လုပ်ပါတယ်)</span>
+</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="n">salary</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter your salary: &#39;</span><span class="p">))</span>
+</span><span id="__span-14-9"><a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a>
+</span><span id="__span-14-10"><a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a><span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">salary</span><span class="p">)</span>
+</span></code></pre></div>
+<h3 id="57-pass-statement">5.7 Pass Statement<a class="headerlink" href="#57-pass-statement" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>pass</code> statement က <strong>Execution</strong> လုပ်တဲ့အခါ ဘာမှမလုပ်ဖို့ (Do nothing) ရည်ရွယ်ပါတယ်။ ဒါကြောင့် သူ့ကို <strong>no-op</strong> (no operation) instruction လို့ ခေါ်လေ့ရှိပါတယ်။</li>
+<li>Statement တစ်ခု Run လိုက်တဲ့အခါ ဘာမှမဖြစ်စေချင်ဘူးဆိုရင် <code>pass</code> statement ကို သုံးနိုင်ပါတယ်။ သူ့ရဲ့ အသုံးဝင်ပုံကို <code>Problem 5.6</code> မှာ တွေ့နိုင်ပါတယ်။</li>
+<li><code>pass</code> ကို <code>if</code>၊ <code>loop</code>၊ <code>function</code> (သို့မဟုတ်) <code>class</code> တွေရေးတဲ့အခါ <strong>Code logic</strong> မထည့်ရသေးခင် နေရာဦးထားတဲ့သဘော (<strong>Placeholder</strong>) အနေနဲ့ သုံးလေ့ရှိကြပါတယ်။</li>
+<li>ဒါပေမယ့် ဒီလိုနေရာတွေမှာ <code>pass</code> ကိုသုံးတာ သိပ်မကောင်းလှပါဘူး။ သူ့အစား <code>...</code> ကို သုံးသင့်ပါတယ်။ <code>pass</code> ကိုသုံးလိုက်ရင် တကယ်ပဲ ဘာမှမလုပ်ချင်တာလား (Intentionally do nothing)၊ ဒါမှမဟုတ် Code မရေးရသေးတာလားဆိုတာ ကွဲပြားမှုမရှိ ဖြစ်သွားနိုင်လို့ပါ။</li>
+</ul>
+<h4 id="571-ellipsis">5.7.1 Ellipsis<a class="headerlink" href="#571-ellipsis" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Ellipsis</strong> ဆိုတာ Python ရဲ့ <strong>Built-in constant</strong> တစ်ခုဖြစ်ပြီး <code>...</code> နဲ့ ကိုယ်စားပြုပါတယ်။</li>
+<li><strong>Ellipsis</strong> ကို မသိရှိသေးတဲ့ တန်ဖိုး (<strong>Unknown value</strong>) တစ်ခုကို ကိုယ်စားပြုဖို့ အသုံးပြုပါတယ်။</li>
+<li><code>if</code>၊ <code>loop</code>၊ <code>function</code> (သို့မဟုတ်) <code>class</code> တွေမှာ <strong>Unimplemented code</strong> (ကုဒ်မရေးရသေးတဲ့နေရာတွေ) အတွက် <strong>Placeholder</strong> အနေနဲ့ အသုံးပြုလေ့ရှိပါတယ်။</li>
+<li><strong>Ellipsis</strong> (<code>...</code>) နဲ့ <code>pass</code> က မတူပါဘူး။ <code>pass</code> က <strong>Statement</strong> တစ်ခုဖြစ်ပြီး၊ <code>...</code> က <strong>Constant</strong> တစ်ခုဖြစ်ပါတယ်။</li>
+</ul>
+<h2 id="problems">Problems<a class="headerlink" href="#problems" title="Permanent link">&para;</a></h2>
+<h3 id="problem-51"><strong>Problem 5.1</strong><a class="headerlink" href="#problem-51" title="Permanent link">&para;</a></h3>
+<p>ပစ္စည်းဝယ်ယူရာတွင် အရေအတွက် (Quantity) သည် <strong>1000</strong> ထက်ကျော်လွန်ပါက <strong>10% discount</strong> ရရှိမည်ဖြစ်သည်။ <strong>Quantity</strong> နှင့် ပစ္စည်းတစ်ခုဈေးနှုန်း (<strong>Price per item</strong>) ကို Keyboard မှ <strong>Input</strong> အဖြစ်လက်ခံပြီး ကျသင့်ငွေစုစုပေါင်း (<strong>Total expenses</strong>) ကို တွက်ချက်ပေးမည့် Program ကို ရေးသားပါ။</p>
+<details>
+<summary> Program </summary>
+
+<div class="language-python highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="n">qty</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter value of quantity: &#39;</span><span class="p">))</span> 
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="n">price</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter value of price: &#39;</span><span class="p">))</span> 
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="k">if</span> <span class="n">qty</span> <span class="o">&gt;</span> <span class="mi">1000</span> <span class="p">:</span> 
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="n">dis</span> <span class="o">=</span> <span class="mi">10</span> 
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="k">else</span> <span class="p">:</span> 
+</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="n">dis</span> <span class="o">=</span> <span class="mi">0</span> 
+</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="n">totexp</span> <span class="o">=</span> <span class="n">qty</span> <span class="o">*</span> <span class="n">price</span> <span class="o">-</span> <span class="n">qty</span> <span class="o">*</span> <span class="n">price</span> <span class="o">*</span> <span class="n">dis</span> <span class="o">/</span> <span class="mi">100</span> 
+</span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Total expenses = Rs. &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">totexp</span><span class="p">))</span> 
+</span></code></pre></div>
+</details>
+
+<details>
+<summary> Output </summary>
+
+<div class="language-python highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="n">Enter</span> <span class="n">value</span> <span class="n">of</span> <span class="n">quantity</span><span class="p">:</span> <span class="mi">1200</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="n">Enter</span> <span class="n">value</span> <span class="n">of</span> <span class="n">price</span><span class="p">:</span> <span class="mf">15.50</span>
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="n">Total</span> <span class="n">expenses</span> <span class="o">=</span> <span class="n">Rs</span><span class="o">.</span> <span class="mf">16740.0</span>
+</span></code></pre></div>
+</details>
+
+<div class="admonition tips">
+<p class="admonition-title">Tips</p>
+<ul>
+<li><code>input( )</code> function က အမြဲတမ်း <strong>String</strong> ကိုပဲ Return ပြန်ပေးတဲ့အတွက်၊ လိုအပ်သလို <strong><code>int</code></strong> (သို့မဟုတ်) <strong><code>float</code></strong> အဖြစ် <strong>Convert</strong> လုပ်ပေးဖို့ လိုအပ်ပါတယ်။ တကယ်လို့ <strong>Convert</strong> မလုပ်ဘဲ ဒီတိုင်းထားမယ်ဆိုရင် <code>qty &gt; 1000</code> လို့ စစ်တဲ့အခါ <strong>Error</strong> တက်ပါလိမ့်မယ်။ ဘာကြောင့်လဲဆိုတော့ <strong>String</strong> နဲ့ <strong>int</strong> ကို တိုက်ရိုက်နှိုင်းယှဉ် (Compare) လို့ မရလို့ပါ။</li>
+<li><code>+</code> operator သုံးပြီး <strong>Concatenation</strong> (စာသားဆက်ခြင်း) မလုပ်ခင်မှာ၊ <code>totexp</code> (Total Expenses) ကို <strong>String</strong> အဖြစ်ပြောင်းလဲဖို့ <strong><code>str( )</code></strong> function ကို အသုံးပြုသင့်ပါတယ်။</li>
+</ul>
+</div>
+<h3 id="problem-52"><strong>Problem 5.2</strong><a class="headerlink" href="#problem-52" title="Permanent link">&para;</a></h3>
+<p>ကုမ္ပဏီတစ်ခု၏ ဝန်ထမ်းလစာတွက်ချက်ပုံမှာ အောက်ပါအတိုင်းဖြစ်သည် -</p>
+<ul>
+<li><strong>Basic Salary</strong> သည် <code>1500</code> အောက်ဖြစ်ပါက - <code>HRA = 10%</code>, <code>DA = 90%</code></li>
+<li><strong>Basic Salary</strong> သည် <code>1500</code> နှင့်အထက်ဖြစ်ပါက - <code>HRA = 500</code> (Fixed), <code>DA = 98%</code></li>
+</ul>
+<p>ဝန်ထမ်း၏ <strong>Basic Salary</strong> ကို Input အဖြစ်လက်ခံပြီး <strong>Gross Salary</strong> (စုစုပေါင်းလစာ) ကို တွက်ချက်ပေးမည့် Program ကို ရေးသားပါ။</p>
+<details>
+<summary>Program</summary>
+
+<div class="language-python highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="n">bs</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter value of bs: &#39;</span><span class="p">))</span>
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="k">if</span> <span class="n">bs</span> <span class="o">&gt;</span> <span class="mi">1500</span> <span class="p">:</span> 
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="n">hra</span> <span class="o">=</span> <span class="n">bs</span> <span class="o">*</span> <span class="mi">15</span> <span class="o">/</span><span class="mi">100</span> 
+</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="n">da</span> <span class="o">=</span> <span class="n">bs</span> <span class="o">*</span> <span class="mi">95</span> <span class="o">/</span> <span class="mi">100</span> 
+</span><span id="__span-17-5"><a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a><span class="n">ca</span> <span class="o">=</span> <span class="n">bs</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">/</span> <span class="mi">100</span> 
+</span><span id="__span-17-6"><a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a><span class="k">else</span><span class="p">:</span> 
+</span><span id="__span-17-7"><a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a><span class="n">hra</span> <span class="o">=</span> <span class="n">bs</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">/</span> <span class="mi">100</span> 
+</span><span id="__span-17-8"><a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a><span class="n">da</span> <span class="o">=</span> <span class="n">bs</span> <span class="o">*</span> <span class="mi">90</span> <span class="o">/</span> <span class="mi">100</span> 
+</span><span id="__span-17-9"><a id="__codelineno-17-9" name="__codelineno-17-9" href="#__codelineno-17-9"></a><span class="n">ca</span> <span class="o">=</span> <span class="n">bs</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">/</span> <span class="mi">100</span> 
+</span><span id="__span-17-10"><a id="__codelineno-17-10" name="__codelineno-17-10" href="#__codelineno-17-10"></a><span class="n">gs</span> <span class="o">=</span> <span class="n">bs</span> <span class="o">+</span> <span class="n">da</span> <span class="o">+</span> <span class="n">hra</span> <span class="o">+</span> <span class="n">ca</span> 
+</span><span id="__span-17-11"><a id="__codelineno-17-11" name="__codelineno-17-11" href="#__codelineno-17-11"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Gross Salary = Rs. &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">gs</span><span class="p">))</span>
+</span></code></pre></div>
+</details>
+
+<div class="admonition tips">
+<p class="admonition-title">Tips</p>
+<ul>
+<li><code>if</code> block နဲ့ <code>else</code> block တွေထဲမှာ <strong>Statements</strong> တွေ အများကြီး ပါဝင်နိုင်ပါတယ်။ အဲဒီလိုရေးတဲ့အခါ သင့်လျော်တဲ့ <strong>Indentation</strong> (Space ခွာရေးသားခြင်း) လုပ်ပေးဖို့တော့ လိုအပ်ပါတယ်။</li>
+</ul>
+</div>
+<h3 id="problem-53"><strong>Problem 5.3</strong><a class="headerlink" href="#problem-53" title="Permanent link">&para;</a></h3>
+<p>ကျောင်းသားတစ်ယောက်ရဲ့ စာမေးပွဲရမှတ် ရာခိုင်နှုန်း (<strong>Percentage</strong>) ကို <strong>Input</strong> အဖြစ်လက်ခံပြီး၊ အောက်ပါစည်းမျဉ်းများအတိုင်း <strong>Division</strong> သတ်မှတ်ပေးမယ့် Program ကို ရေးသားပါ။</p>
+<ul>
+<li>Percentage &gt;= 60 : <strong>First division</strong></li>
+<li>Percentage 50 to 59 : <strong>Second division</strong></li>
+<li>Percentage 40 to 49 : <strong>Third division</strong></li>
+<li>Percentage &lt; 40 : <strong>Fail</strong></li>
+</ul>
+<details>
+<summary>Program</summary>
+
+<div class="language-python highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="n">per</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter value of percentage: &#39;</span><span class="p">))</span>
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="k">if</span> <span class="n">per</span> <span class="o">&gt;=</span> <span class="mi">60</span> <span class="p">:</span> 
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;First Division&#39;</span><span class="p">)</span>
+</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="k">elif</span> <span class="n">per</span> <span class="o">&gt;=</span> <span class="mi">50</span> <span class="p">:</span> 
+</span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Second Division&#39;</span><span class="p">)</span>
+</span><span id="__span-18-6"><a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a><span class="k">elif</span> <span class="n">per</span> <span class="o">&gt;=</span> <span class="mi">40</span> <span class="p">:</span> 
+</span><span id="__span-18-7"><a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Third Division&#39;</span><span class="p">)</span>
+</span><span id="__span-18-8"><a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a><span class="k">else</span> <span class="p">:</span> 
+</span><span id="__span-18-9"><a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Fail&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+</details>
+
+<details><summary>Output</summary>
+
+<div class="language-python highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="n">Enter</span> <span class="n">value</span> <span class="n">of</span> <span class="n">percentage</span><span class="p">:</span> <span class="mi">55</span>
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="n">Second</span> <span class="n">Division</span>
+</span></code></pre></div>
+</details>
+
+<h3 id="problem-54"><strong>Problem 5.4</strong><a class="headerlink" href="#problem-54" title="Permanent link">&para;</a></h3>
+<p>ကုမ္ပဏီတစ်ခုက ယာဉ်မောင်း (Driver) တွေကို အောက်ပါအခြေအနေတွေမှာ <strong>အာမခံ (Insurance)</strong> ထားပေးပါတယ် -</p>
+<ul>
+<li>အိမ်ထောင်ရှိသူ (Married) ဖြစ်လျှင်။</li>
+<li>အိမ်ထောင်မရှိသူ (Unmarried)၊ ကျား (Male) ဖြစ်ပြီး အသက် <strong>30</strong> နှစ်ထက်ကြီးလျှင်။</li>
+<li>အိမ်ထောင်မရှိသူ (Unmarried)၊ မ (Female) ဖြစ်ပြီး အသက် <strong>25</strong> နှစ်ထက်ကြီးလျှင်။</li>
+</ul>
+<p>ကျန်တဲ့အခြေအနေတွေဆိုရင် အာမခံမပေးပါဘူး။ ဝန်ထမ်းရဲ့ <strong>Marital status</strong>, <strong>Sex</strong> နဲ့ <strong>Age</strong> ကို Input ယူပြီး အာမခံရနိုင်/မရနိုင် တွက်ချက်ပေးမည့် Program ကို ရေးသားပါ။</p>
+<details>
+<summary>Program</summary>
+
+<div class="language-python highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="n">ms</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter marital status: &#39;</span><span class="p">)</span>
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="n">s</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter sex: &#39;</span><span class="p">)</span> 
+</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="n">age</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter age: &#39;</span><span class="p">))</span> 
+</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="k">if</span> <span class="p">(</span> <span class="n">ms</span> <span class="o">==</span> <span class="s1">&#39;m&#39;</span> <span class="p">)</span> <span class="ow">or</span> <span class="p">(</span> <span class="n">ms</span> <span class="o">==</span> <span class="s1">&#39;u&#39;</span> <span class="ow">and</span> <span class="n">s</span> <span class="o">==</span> <span class="s1">&#39;m&#39;</span> <span class="ow">and</span> <span class="n">age</span> <span class="o">&gt;</span> <span class="mi">30</span> <span class="p">)</span> \
+</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="ow">or</span> <span class="p">(</span> <span class="n">ms</span> <span class="o">==</span> <span class="s1">&#39;u&#39;</span> <span class="ow">and</span> <span class="n">s</span> <span class="o">==</span> <span class="s1">&#39;f&#39;</span> <span class="ow">and</span> <span class="n">age</span> <span class="o">&gt;</span> <span class="mi">25</span> <span class="p">)</span> <span class="p">:</span> 
+</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Insured&#39;</span><span class="p">)</span>
+</span><span id="__span-20-7"><a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a><span class="k">else</span> <span class="p">:</span> 
+</span><span id="__span-20-8"><a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Not Insured&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+</details>
+
+<details><summary>Output</summary>
+
+<div class="language-python highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="n">Enter</span> <span class="n">marital</span> <span class="n">status</span><span class="p">:</span> <span class="n">u</span>
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a><span class="n">Enter</span> <span class="n">sex</span><span class="p">:</span> <span class="n">m</span>
+</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a><span class="n">Enter</span> <span class="n">age</span><span class="p">:</span> <span class="mi">23</span>
+</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a><span class="n">Not</span> <span class="n">Insured</span>
+</span></code></pre></div>
+</details>
+
+<h3 id="problem-55"><strong>Problem 5.5</strong><a class="headerlink" href="#problem-55" title="Permanent link">&para;</a></h3>
+<p><code>w</code>, <code>x</code>, <code>y</code>, <code>z</code> ဆိုတဲ့ <strong>Flag variables</strong> ၄ ခု ရှိပါတယ်။ အဲဒီအထဲက <strong>တစ်ခုခု (One of them)</strong> က <strong>True</strong> ဖြစ်နေသလားဆိုတာကို နည်းလမ်းမျိုးစုံသုံးပြီး စစ်ဆေးမည့် Program ကို ရေးသားပါ။</p>
+<details>
+<summary>Program</summary>
+
+<div class="language-python highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="c1"># Different ways to test multiple flags</span>
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a><span class="n">w</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span>
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>
+</span><span id="__span-22-4"><a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a><span class="k">if</span> <span class="n">w</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">or</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">or</span> <span class="n">z</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">:</span>
+</span><span id="__span-22-5"><a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;True&#39;</span><span class="p">)</span>
+</span><span id="__span-22-6"><a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a>
+</span><span id="__span-22-7"><a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a><span class="k">if</span> <span class="n">w</span> <span class="ow">or</span> <span class="n">x</span> <span class="ow">or</span> <span class="n">y</span> <span class="ow">or</span> <span class="n">z</span> <span class="p">:</span>
+</span><span id="__span-22-8"><a id="__codelineno-22-8" name="__codelineno-22-8" href="#__codelineno-22-8"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;True&#39;</span><span class="p">)</span>
+</span><span id="__span-22-9"><a id="__codelineno-22-9" name="__codelineno-22-9" href="#__codelineno-22-9"></a>
+</span><span id="__span-22-10"><a id="__codelineno-22-10" name="__codelineno-22-10" href="#__codelineno-22-10"></a><span class="k">if</span> <span class="nb">any</span><span class="p">((</span><span class="n">w</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">)):</span>
+</span><span id="__span-22-11"><a id="__codelineno-22-11" name="__codelineno-22-11" href="#__codelineno-22-11"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;True&#39;</span><span class="p">)</span>
+</span><span id="__span-22-12"><a id="__codelineno-22-12" name="__codelineno-22-12" href="#__codelineno-22-12"></a>
+</span><span id="__span-22-13"><a id="__codelineno-22-13" name="__codelineno-22-13" href="#__codelineno-22-13"></a><span class="k">if</span> <span class="mi">1</span> <span class="ow">in</span> <span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span> <span class="p">:</span>
+</span><span id="__span-22-14"><a id="__codelineno-22-14" name="__codelineno-22-14" href="#__codelineno-22-14"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;True&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+</details>
+
+<details><summary>Output</summary>
+
+<div class="language-python highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="kc">True</span>
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="kc">True</span>
+</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="kc">True</span>
+</span><span id="__span-23-4"><a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a><span class="kc">True</span>
+</span></code></pre></div>
+</details>
+
+<div class="admonition tips">
+<p class="admonition-title">Tips</p>
+<ul>
+<li><code>any( )</code> ဆိုတာ <strong>Built-in function</strong> တစ်ခုဖြစ်ပြီး၊ သူ့ဆီပေးလိုက်တဲ့ <strong>Parameter</strong> ထဲက <strong>Element</strong> တွေထဲက အနည်းဆုံးတစ်ခု (<strong>At least one</strong>) က <strong>True</strong> ဖြစ်နေရင် <strong>True</strong> ပြန်ပေးပါတယ်။</li>
+<li><code>any( )</code> ကို အသုံးပြုတဲ့အခါ <strong>String</strong>, <strong>List</strong>, <strong>Tuple</strong>, <strong>Set</strong> (သို့မဟုတ်) <strong>Dictionary</strong> တစ်ခုခုကို <strong>Pass</strong> လုပ်ပေးရပါမယ် (Argument အနေနဲ့ ပေးပို့ရပါမယ်)။</li>
+<li><code>all( )</code> လို့ခေါ်တဲ့ ဆင်တူတဲ့ Function တစ်ခုလည်း ရှိပါသေးတယ်။ သူကတော့ <strong>Parameter</strong> ထဲက <strong>Elements</strong> အားလုံး (<strong>All</strong>) က <strong>True</strong> ဖြစ်မှသာ <strong>True</strong> ပြန်ပေးတာပါ။ ဒီ Function ကိုလည်း <code>any()</code> လိုပဲ <strong>String</strong>, <strong>List</strong>, <strong>Tuple</strong>, <strong>Set</strong> (သို့မဟုတ်) <strong>Dictionary</strong> ပေးပို့အသုံးပြုရပါမယ်။</li>
+</ul>
+</div>
+<h3 id="problem-56"><strong>Problem 5.6</strong><a class="headerlink" href="#problem-56" title="Permanent link">&para;</a></h3>
+<p>ကိန်းဂဏန်း <code>n</code> တစ်ခုကို အခြေခံပြီး အောက်ပါအတိုင်း လုပ်ဆောင်မည့် Program ကို ရေးသားပါ -
+<div class="language-python highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="n">If</span> <span class="n">n</span> <span class="ow">is</span> <span class="n">positive</span> <span class="o">-</span> <span class="nb">print</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">,</span> <span class="nb">set</span> <span class="n">a</span> <span class="n">flag</span> <span class="n">to</span> <span class="n">true</span>
+</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="n">If</span> <span class="n">n</span> <span class="ow">is</span> <span class="n">negative</span> <span class="o">-</span> <span class="nb">print</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">,</span> <span class="nb">set</span> <span class="n">a</span> <span class="n">flag</span> <span class="n">to</span> <span class="n">true</span>
+</span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="k">if</span> <span class="n">n</span> <span class="ow">is</span> <span class="mi">0</span> <span class="o">-</span> <span class="n">do</span> <span class="n">nothing</span>
+</span></code></pre></div>
+အောက်ပါပေးထားသော Code သည် Logic အရ မှန်ပါသလား?</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter a number: &#39;</span><span class="p">))</span>
+</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a><span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">:</span>
+</span><span id="__span-25-3"><a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>    <span class="n">flag</span> <span class="o">=</span> <span class="kc">True</span>
+</span><span id="__span-25-4"><a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">)</span>
+</span><span id="__span-25-5"><a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a><span class="k">elif</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="p">:</span>
+</span><span id="__span-25-6"><a id="__codelineno-25-6" name="__codelineno-25-6" href="#__codelineno-25-6"></a>    <span class="n">flag</span> <span class="o">=</span> <span class="kc">True</span>
+</span><span id="__span-25-7"><a id="__codelineno-25-7" name="__codelineno-25-7" href="#__codelineno-25-7"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">)</span>
+</span></code></pre></div>
+<details>
+<summary>Answer</summary>
+
+ဒါက ထင်ယောင်ထင်မှား ဖြစ်စေနိုင်တဲ့ Code ပါ။
+
+နောက်တစ်ချိန် ဒီ Code ကို ပြန်ကြည့်တဲ့အခါ `flag = True` ကို `if` နဲ့ `else` ရဲ့ အပြင်ဘက်မှာ ထုတ်ရေးသင့်တယ်လို့ ထင်မြင်သွားနိုင်ပါတယ်။
+
+ပိုကောင်းမယ့် Code ပုံစံကတော့ အောက်ပါအတိုင်း ဖြစ်ပါတယ် -
+
+<div class="language-python highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter a number: &#39;</span><span class="p">))</span>
+</span><span id="__span-26-2"><a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a><span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">:</span>
+</span><span id="__span-26-3"><a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>    <span class="n">flag</span> <span class="o">=</span> <span class="kc">True</span>
+</span><span id="__span-26-4"><a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">)</span>
+</span><span id="__span-26-5"><a id="__codelineno-26-5" name="__codelineno-26-5" href="#__codelineno-26-5"></a><span class="k">elif</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="p">:</span>
+</span><span id="__span-26-6"><a id="__codelineno-26-6" name="__codelineno-26-6" href="#__codelineno-26-6"></a>    <span class="n">flag</span> <span class="o">=</span> <span class="kc">True</span>
+</span><span id="__span-26-7"><a id="__codelineno-26-7" name="__codelineno-26-7" href="#__codelineno-26-7"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">)</span>
+</span><span id="__span-26-8"><a id="__codelineno-26-8" name="__codelineno-26-8" href="#__codelineno-26-8"></a><span class="k">else</span> <span class="p">:</span>
+</span><span id="__span-26-9"><a id="__codelineno-26-9" name="__codelineno-26-9" href="#__codelineno-26-9"></a>    <span class="k">pass</span> <span class="c1"># does nothing on execution</span>
+</span></code></pre></div>
+</details>
+
+<h2 id="exercise"><strong>Exercise</strong><a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
+<h3 id="a-answer-the-following-questions"><strong>[A] Answer the following questions:</strong><a class="headerlink" href="#a-answer-the-following-questions" title="Permanent link">&para;</a></h3>
+<p>a. အောက်ပါတို့အတွက် Conditional expressions များကို ရေးသားပေးပါ
+<div class="language-python highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="o">-</span> <span class="n">If</span> <span class="n">a</span> <span class="o">&lt;</span> <span class="mi">10</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">20</span><span class="p">,</span> <span class="k">else</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">30</span>
+</span><span id="__span-27-2"><a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a><span class="o">-</span> <span class="n">Print</span> <span class="s1">&#39;Morning&#39;</span> <span class="k">if</span> <span class="n">time</span> <span class="o">&lt;</span> <span class="mi">12</span><span class="p">,</span> <span class="n">otherwise</span> <span class="nb">print</span> <span class="s1">&#39;Afternoon&#39;</span>
+</span><span id="__span-27-3"><a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a><span class="o">-</span> <span class="n">If</span> <span class="n">marks</span> <span class="o">&gt;=</span> <span class="mi">70</span><span class="p">,</span> <span class="nb">set</span> <span class="n">remarks</span> <span class="n">to</span> <span class="kc">True</span><span class="p">,</span> <span class="n">otherwise</span> <span class="kc">False</span>
+</span></code></pre></div>
+b. အောက်ပါ Code snippet ကို 1 line ထဲမှာ ပြန်လည်ရေးသားပေးပါ
+<div class="language-python highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="n">x</span> <span class="o">=</span> <span class="mi">3</span> 
+</span><span id="__span-28-2"><a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="n">y</span> <span class="o">=</span> <span class="mf">3.0</span> 
+</span><span id="__span-28-3"><a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a><span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="n">y</span> <span class="p">:</span>
+</span><span id="__span-28-4"><a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x and y are equal&#39;</span><span class="p">)</span> 
+</span><span id="__span-28-5"><a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a><span class="k">else</span> <span class="p">:</span>  
+</span><span id="__span-28-6"><a id="__codelineno-28-6" name="__codelineno-28-6" href="#__codelineno-28-6"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x and y are not equal&#39;</span><span class="p">)</span> 
+</span></code></pre></div>
+c. <code>pass</code> statement တစ်ခုကို အသုံးပြုလိုက်တဲ့အခါ ဘာဖြစ်သွားမလဲ?</p>
+<h3 id="b-program-output"><strong>[B] အောက်ပါ Program တို့၏ Output ကို ဖော်ပြပါ</strong><a class="headerlink" href="#b-program-output" title="Permanent link">&para;</a></h3>
+<p>a.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">k</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span>
+</span><span id="__span-29-2"><a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="n">w</span> <span class="o">=</span> <span class="n">i</span> <span class="ow">or</span> <span class="n">j</span> <span class="ow">or</span> <span class="n">k</span> 
+</span><span id="__span-29-3"><a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a><span class="n">x</span> <span class="o">=</span> <span class="n">i</span> <span class="ow">and</span> <span class="n">j</span> <span class="ow">and</span> <span class="n">k</span> 
+</span><span id="__span-29-4"><a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a><span class="n">y</span> <span class="o">=</span> <span class="n">i</span> <span class="ow">or</span> <span class="n">j</span> <span class="ow">and</span> <span class="n">k</span> 
+</span><span id="__span-29-5"><a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a><span class="n">z</span> <span class="o">=</span> <span class="n">i</span> <span class="ow">and</span> <span class="n">j</span> <span class="ow">or</span> <span class="n">k</span> 
+</span><span id="__span-29-6"><a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a><span class="nb">print</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span> 
+</span></code></pre></div>
+b.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+</span><span id="__span-30-2"><a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a><span class="n">a</span> <span class="o">=</span> <span class="ow">not</span> <span class="ow">not</span> <span class="n">a</span>
+</span><span id="__span-30-3"><a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> 
+</span></code></pre></div></p>
+<p>c.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">45</span> 
+</span><span id="__span-31-2"><a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a><span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span> <span class="ow">and</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="n">z</span> <span class="p">:</span>
+</span><span id="__span-31-3"><a id="__codelineno-31-3" name="__codelineno-31-3" href="#__codelineno-31-3"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;biggest = &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+</span><span id="__span-31-4"><a id="__codelineno-31-4" name="__codelineno-31-4" href="#__codelineno-31-4"></a><span class="k">elif</span> <span class="n">y</span> <span class="o">&gt;</span> <span class="n">x</span> <span class="ow">and</span> <span class="n">y</span> <span class="o">&gt;</span> <span class="n">z</span> <span class="p">:</span>
+</span><span id="__span-31-5"><a id="__codelineno-31-5" name="__codelineno-31-5" href="#__codelineno-31-5"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;biggest = &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
+</span><span id="__span-31-6"><a id="__codelineno-31-6" name="__codelineno-31-6" href="#__codelineno-31-6"></a><span class="k">elif</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="n">x</span> <span class="ow">and</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="n">y</span> <span class="p">:</span>
+</span><span id="__span-31-7"><a id="__codelineno-31-7" name="__codelineno-31-7" href="#__codelineno-31-7"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;biggest = &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">z</span><span class="p">))</span>
+</span></code></pre></div></p>
+<p>d.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="n">num</span> <span class="o">=</span> <span class="mi">30</span> 
+</span><span id="__span-32-2"><a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a><span class="n">k</span> <span class="o">=</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">num</span> <span class="o">&lt;=</span> <span class="mi">10</span> <span class="k">else</span> <span class="mi">500</span>
+</span><span id="__span-32-3"><a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
+</span></code></pre></div>
+e.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-33-1"><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+</span><span id="__span-33-2"><a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a><span class="n">b</span> <span class="o">=</span> <span class="mi">60</span>
+</span><span id="__span-33-3"><a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a><span class="k">if</span> <span class="n">a</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="mi">20</span> <span class="p">:</span>
+</span><span id="__span-33-4"><a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
+</span><span id="__span-33-5"><a id="__codelineno-33-5" name="__codelineno-33-5" href="#__codelineno-33-5"></a><span class="k">else</span> <span class="p">:</span>
+</span><span id="__span-33-6"><a id="__codelineno-33-6" name="__codelineno-33-6" href="#__codelineno-33-6"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hi&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+f.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-34-1"><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+</span><span id="__span-34-2"><a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a><span class="n">b</span> <span class="o">=</span> <span class="mi">60</span>
+</span><span id="__span-34-3"><a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a><span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="mi">20</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="mi">20</span> <span class="p">:</span>
+</span><span id="__span-34-4"><a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
+</span><span id="__span-34-5"><a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a><span class="k">else</span> <span class="p">:</span>
+</span><span id="__span-34-6"><a id="__codelineno-34-6" name="__codelineno-34-6" href="#__codelineno-34-6"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hi&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+g.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-35-1"><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+</span><span id="__span-35-2"><a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a><span class="k">if</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">30</span> <span class="ow">or</span> <span class="mi">40</span> <span class="ow">or</span> <span class="mi">60</span> <span class="p">:</span>
+</span><span id="__span-35-3"><a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
+</span><span id="__span-35-4"><a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a><span class="k">else</span> <span class="p">:</span>
+</span><span id="__span-35-5"><a id="__codelineno-35-5" name="__codelineno-35-5" href="#__codelineno-35-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hi&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+h.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-36-1"><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+</span><span id="__span-36-2"><a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a><span class="k">if</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">30</span> <span class="ow">or</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">40</span> <span class="ow">or</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">60</span> <span class="p">:</span>
+</span><span id="__span-36-3"><a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
+</span><span id="__span-36-4"><a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a><span class="k">else</span> <span class="p">:</span>
+</span><span id="__span-36-5"><a id="__codelineno-36-5" name="__codelineno-36-5" href="#__codelineno-36-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hi&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+i.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-37-1"><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+</span><span id="__span-37-2"><a id="__codelineno-37-2" name="__codelineno-37-2" href="#__codelineno-37-2"></a><span class="k">if</span> <span class="n">a</span> <span class="ow">in</span> <span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span> <span class="p">:</span>
+</span><span id="__span-37-3"><a id="__codelineno-37-3" name="__codelineno-37-3" href="#__codelineno-37-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
+</span><span id="__span-37-4"><a id="__codelineno-37-4" name="__codelineno-37-4" href="#__codelineno-37-4"></a><span class="k">else</span> <span class="p">:</span>
+</span><span id="__span-37-5"><a id="__codelineno-37-5" name="__codelineno-37-5" href="#__codelineno-37-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hi&#39;</span><span class="p">)</span>
+</span></code></pre></div></p>
+<h3 id="c-program"><strong>[C] အောက်ပါ Program တို့တွင် အမှားများရှိပါက ဖော်ပြပါ</strong><a class="headerlink" href="#c-program" title="Permanent link">&para;</a></h3>
+<p>a.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-38-1"><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mf">12.25</span>
+</span><span id="__span-38-2"><a id="__codelineno-38-2" name="__codelineno-38-2" href="#__codelineno-38-2"></a><span class="n">b</span> <span class="o">=</span> <span class="mf">12.52</span>
+</span><span id="__span-38-3"><a id="__codelineno-38-3" name="__codelineno-38-3" href="#__codelineno-38-3"></a><span class="k">if</span> <span class="n">a</span> <span class="o">=</span> <span class="n">b</span> <span class="p">:</span>
+</span><span id="__span-38-4"><a id="__codelineno-38-4" name="__codelineno-38-4" href="#__codelineno-38-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;a and b are equal&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+b.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-39-1"><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a><span class="k">if</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">&#39;X&#39;</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">&#39;x&#39;</span><span class="p">)</span>
+</span><span id="__span-39-2"><a id="__codelineno-39-2" name="__codelineno-39-2" href="#__codelineno-39-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Unicode value of X is smaller than that of x&#39;</span><span class="p">)</span> 
+</span></code></pre></div>
+c.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-40-1"><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span> 
+</span><span id="__span-40-2"><a id="__codelineno-40-2" name="__codelineno-40-2" href="#__codelineno-40-2"></a><span class="k">if</span> <span class="n">x</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="n">then</span>
+</span><span id="__span-40-3"><a id="__codelineno-40-3" name="__codelineno-40-3" href="#__codelineno-40-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+d.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-41-1"><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span> <span class="p">;</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">15</span>
+</span><span id="__span-41-2"><a id="__codelineno-41-2" name="__codelineno-41-2" href="#__codelineno-41-2"></a><span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">=</span> <span class="n">y</span> <span class="o">%</span> <span class="mi">3</span>
+</span><span id="__span-41-3"><a id="__codelineno-41-3" name="__codelineno-41-3" href="#__codelineno-41-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Carpathians</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></code></pre></div>
+e.
+<div class="language-python highlight"><pre><span></span><code><span id="__span-42-1"><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a><span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span>
+</span><span id="__span-42-2"><a id="__codelineno-42-2" name="__codelineno-42-2" href="#__codelineno-42-2"></a><span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="n">y</span> <span class="p">:</span>
+</span><span id="__span-42-3"><a id="__codelineno-42-3" name="__codelineno-42-3" href="#__codelineno-42-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x is equal to y&#39;</span><span class="p">)</span>
+</span><span id="__span-42-4"><a id="__codelineno-42-4" name="__codelineno-42-4" href="#__codelineno-42-4"></a><span class="n">elseif</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span> <span class="p">:</span>
+</span><span id="__span-42-5"><a id="__codelineno-42-5" name="__codelineno-42-5" href="#__codelineno-42-5"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x is greater than y&#39;</span><span class="p">)</span>
+</span><span id="__span-42-6"><a id="__codelineno-42-6" name="__codelineno-42-6" href="#__codelineno-42-6"></a><span class="n">elseif</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="n">y</span> <span class="p">:</span>
+</span><span id="__span-42-7"><a id="__codelineno-42-7" name="__codelineno-42-7" href="#__codelineno-42-7"></a>    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x is less than y&#39;</span><span class="p">)</span>
+</span></code></pre></div></p>
+<h3 id="d-a-10-b-12-c-0"><strong>[D] a = 10, b = 12, c = 0, ဖြစ်လျှင် အောက်ပါတို့၏ တန်ဖိုးများကို ဖော်ပြပါ</strong><a class="headerlink" href="#d-a-10-b-12-c-0" title="Permanent link">&para;</a></h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-43-1"><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a><span class="n">a</span> <span class="o">!=</span> <span class="mi">6</span> <span class="ow">and</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="mi">5</span> 
+</span><span id="__span-43-2"><a id="__codelineno-43-2" name="__codelineno-43-2" href="#__codelineno-43-2"></a><span class="n">a</span> <span class="o">==</span> <span class="mi">9</span> <span class="ow">or</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="mi">3</span>
+</span><span id="__span-43-3"><a id="__codelineno-43-3" name="__codelineno-43-3" href="#__codelineno-43-3"></a><span class="ow">not</span> <span class="p">(</span> <span class="n">a</span> <span class="o">&lt;</span> <span class="mi">10</span> <span class="p">)</span>
+</span><span id="__span-43-4"><a id="__codelineno-43-4" name="__codelineno-43-4" href="#__codelineno-43-4"></a><span class="ow">not</span> <span class="p">(</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="mi">5</span> <span class="ow">and</span> <span class="n">c</span> <span class="p">)</span> 
+</span><span id="__span-43-5"><a id="__codelineno-43-5" name="__codelineno-43-5" href="#__codelineno-43-5"></a><span class="mi">5</span> <span class="ow">and</span> <span class="n">c</span> <span class="o">!=</span> <span class="mi">8</span> <span class="ow">or</span> <span class="err">!</span><span class="n">c</span>
+</span></code></pre></div>
+<h3 id="e"><strong>[E] အောက်ပါတို့အတွက် အဖြေများကို ရေးသားပေးပါ</strong><a class="headerlink" href="#e" title="Permanent link">&para;</a></h3>
+<p><strong>Questions (မေးခွန်းများ)</strong></p>
+<p><strong>a.</strong> ကိန်းပြည့် (Integer) တစ်ခုကို Keyboard မှ Input အဖြစ် ရိုက်ထည့်ပါ။ ထိုကိန်းဂဏန်းသည် <strong>မ (Odd)</strong> ဂဏန်းလား၊ <strong>စုံ (Even)</strong> ဂဏန်းလား ဆိုတာ ရှာဖွေပေးမယ့် Program တစ်ပုဒ် ရေးပါ။</p>
+<p><strong>b.</strong> ခုနှစ် (Year) တစ်ခုကို Keyboard မှ Input အဖြစ် ရိုက်ထည့်ပါ။ ထိုခုနှစ်သည် <strong>ရက်ထပ်နှစ် (Leap year)</strong> ဟုတ်/မဟုတ် ဆုံးဖြတ်ပေးမယ့် Program တစ်ပုဒ် ရေးပါ။</p>
+<p><strong>c.</strong> Ram, Shyam နှင့် Ajay တို့ (၃) ဦး၏ အသက်များကို Keyboard မှ Input အဖြစ် ရိုက်ထည့်ပါ။ ထို (၃) ဦးထဲတွင် <strong>အသက်အငယ်ဆုံး (Youngest)</strong> သူကို ရှာဖွေဆုံးဖြတ်ပေးမယ့် Program တစ်ပုဒ် ရေးပါ။</p>
+<p><strong>d.</strong> တြိဂံတစ်ခု၏ ထောင့် (Angle) ၃ ခုကို Keyboard မှ Input အဖြစ် ရိုက်ထည့်ပါ။ ထိုတြိဂံသည် တည်ဆောက်၍ရသော <strong>Valid Triangle</strong> ဟုတ်/မဟုတ် စစ်ဆေးပေးမယ့် Program တစ်ပုဒ် ရေးပါ။ (မှတ်ချက် - ထောင့် ၃ ခုပေါင်းခြင်းသည် <strong>180</strong> ဒီဂရီနှင့် ညီမျှမှသာ Valid Triangle ဖြစ်သည်)</p>
+<p><strong>e.</strong> ကိန်းဂဏန်းတစ်ခုကို Keyboard မှ Input အဖြစ် ရိုက်ထည့်ပါ။ ထိုကိန်းဂဏန်း၏ <strong>ပကတိတန်ဖိုး (Absolute value)</strong> ကို ရှာဖွေပေးမယ့် Program တစ်ပုဒ် ရေးပါ။</p>
+<p><strong>f.</strong> စတုဂံတစ်ခု၏ အလျား (Length) နှင့် အနံ (Breadth) တို့ကို ပေးထားသည်။ ထိုစတုဂံ၏ <strong>ဧရိယာ (Area)</strong> သည် ၎င်း၏ <strong>ပတ်လည်အနား (Perimeter)</strong> ထက် ကြီးမားခြင်း ရှိ/မရှိ ရှာဖွေပေးမယ့် Program တစ်ပုဒ် ရေးပါ။ (ဥပမာ - အလျား ၅ နှင့် အနံ ၄ ရှိသော စတုဂံ၏ ဧရိယာသည် ၎င်း၏ ပတ်လည်အနားထက် ပိုကြီးပါသည်)</p>
+<p><strong>g.</strong> (x1, y1), (x2, y2) နှင့် (x3, y3) ဆိုသော အမှတ် (Points) ၃ ခုကို ပေးထားသည်။ ထိုအမှတ် ၃ ခုစလုံးသည် <strong>မျဉ်းဖြောင့်တစ်ကြောင်းတည်း (Straight line)</strong> ပေါ်တွင် ကျရောက်ခြင်း ရှိ/မရှိ စစ်ဆေးပေးမယ့် Program တစ်ပုဒ် ရေးပါ။</p>
+<p><strong>h.</strong> စက်ဝိုင်းတစ်ခု၏ ဗဟိုချက် (Center) Coordinates (x, y) နှင့် ၎င်း၏ အချင်းဝက် (Radius) တို့ကို ပေးထားသည်။ အခြားအမှတ် (Point) တစ်ခုသည် ထိုစက်ဝိုင်း၏ <strong>အတွင်းဘက် (Inside)</strong>၊ <strong>စက်ဝိုင်းမျဉ်းပေါ် (On)</strong> သို့မဟုတ် <strong>အပြင်ဘက် (Outside)</strong>၊ မည်သည့်နေရာတွင် ရှိနေသလဲဆိုတာ ဆုံးဖြတ်ပေးမယ့် Program တစ်ပုဒ် ရေးပါ။ (အရိပ်အမြွက်: <code>sqrt( )</code> နှင့် <code>pow( )</code> functions များကို အသုံးပြုပါ)</p>
+<p><strong>i.</strong> အမှတ် (Point) (x, y) တစ်ခုကို ပေးထားသည်။ ထိုအမှတ်သည် <strong>X-ဝင်ရိုး (X-axis)</strong> ပေါ်တွင်လား၊ <strong>Y-ဝင်ရိုး (Y-axis)</strong> ပေါ်တွင်လား သို့မဟုတ် <strong>မူလမှတ် (Origin)</strong> နေရာတွင်လား ဆိုတာ ရှာဖွေပေးမယ့် Program တစ်ပုဒ် ရေးပါ။</p>
+<p><strong>j.</strong> ခုနှစ် (Year) တစ်ခုကို Keyboard မှ Input အဖြစ် ရိုက်ထည့်ပါ။ Logical operators များဖြစ်သော <code>and</code> နှင့် <code>or</code> တို့ကို အသုံးပြုပြီး ထိုခုနှစ်သည် <strong>ရက်ထပ်နှစ် (Leap year)</strong> ဟုတ်/မဟုတ် ဆုံးဖြတ်ပေးမယ့် Program တစ်ပုဒ် ရေးပါ။</p>
+<p><strong>k.</strong> တြိဂံတစ်ခု၏ အနား (Side) ၃ ခုကို Keyboard မှ Input အဖြစ် ရိုက်ထည့်ပါ။ ထိုတြိဂံသည် တည်ဆောက်၍ရသော <strong>Valid Triangle</strong> ဟုတ်/မဟုတ် စစ်ဆေးပေးမယ့် Program တစ်ပုဒ် ရေးပါ။ (မှတ်ချက် - တြိဂံ၏ အနား ၂ ခုပေါင်းလဒ်သည် ကျန်ရှိနေသော အကြီးဆုံးအနားထက် ကြီးမားမှသာ Valid Triangle ဖြစ်သည်)</p>
+<p><strong>l.</strong> တြိဂံတစ်ခု၏ အနား (Side) ၃ ခုကို Keyboard မှ Input အဖြစ် ရိုက်ထည့်ပါ။ ထိုတြိဂံသည် <strong>နှစ်နားညီ (Isosceles)</strong>၊ <strong>သုံးနားညီ (Equilateral)</strong>၊ <strong>နားမညီ (Scalene)</strong> သို့မဟုတ် <strong>ထောင့်မှန် (Right angled)</strong> တြိဂံ၊ မည်သည့်အမျိုးအစားဖြစ်ကြောင်း စစ်ဆေးပေးမယ့် Program တစ်ပုဒ် ရေးပါ။</p>
+<hr />
+<div class="comments-section">
+  <h2 class="comments-title">💬 Comments & Discussion</h2>
+  <script src="https://giscus.app/client.js"
+        data-repo="Joseph1997-eng/Let-Us-Python-Book-"
+        data-repo-id="R_kgDOQfXjHg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQfXjHs4CzbEE"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../chapter-4/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Chapter 4">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Chapter 4
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../chapter-6/" class="md-footer__link md-footer__link--next" aria-label="Next: Chapter 6">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Chapter 6
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Joseph
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Joseph1997-eng" target="_blank" rel="noopener" title="Joseph&#39;s GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.linkedin.com/in/robinson-joseph-61734a17a/" target="_blank" rel="noopener" title="Joseph&#39;s LinkedIn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.facebook.com/josephsaimonn" target="_blank" rel="noopener" title="Joseph&#39;s Facebook" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:josephsaimonn@gmail.com" target="_blank" rel="noopener" title="Email Joseph" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.python.org" target="_blank" rel="noopener" title="Python Official" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6M286.2 444.7a20.4 20.4 0 1 1 0-40.7 20.4 20.4 0 1 1 0 40.7M167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4m-6.6-183.4a20.4 20.4 0 1 1 0 40.8 20.4 20.4 0 1 1 0-40.8"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["announce.dismiss", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.path", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../js/print-site.js"></script>
+      
+        <script src="../../javascripts/social-share.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
