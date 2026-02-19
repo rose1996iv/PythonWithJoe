@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
-[![Documentation](https://img.shields.io/badge/docs-deployed-brightgreen)](https://Joseph1997-eng.github.io/Let-Us-Python-Book-/)
+[![Documentation](https://img.shields.io/badge/docs-deployed-brightgreen)](https://rose1996iv.github.io/PythonWithJoe/)
 
 ## 📖 အကျဉ်းချုပ်
 
@@ -70,8 +70,8 @@
 1. **Repository ကို Clone လုပ်ပါ**
 
     ```bash
-    git clone [https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git](https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git)
-    cd Let-Us-Python-Book-
+    git clone [https://github.com/rose1996iv/PythonWithJoe.git](https://github.com/rose1996iv/PythonWithJoe.git)
+    cd PythonWithJoe
     ```
 
 2. **လိုအပ်တာတွေ Install လုပ်ပါ**
@@ -102,7 +102,7 @@
 
 Browser ကနေပဲ သက်တောင့်သက်သာ ဖတ်ချင်တယ်ဆိုရင်တော့ အောက်ပါ Link မှာ ဝင်ဖတ်နိုင်ပါတယ် -
 
-🌐 **[https://Joseph1997-eng.github.io/Let-Us-Python-Book-/](https://Joseph1997-eng.github.io/Let-Us-Python-Book-/)**
+🌐 **[https://rose1996iv.github.io/PythonWithJoe/](https://rose1996iv.github.io/PythonWithJoe/)**
 
 (သို့မဟုတ်) စက်ထဲမှာ run ပြီးဖတ်ချင်ရင် -
 
@@ -136,8 +136,8 @@ mkdocs serve
 
 မေးချင်တာတွေ၊ အကြံပြုချင်တာတွေရှိရင် ဆက်သွယ်နိုင်ပါတယ် -
 
-* 🐛 **Issues**: [Open an issue](https://github.com/Joseph1997-eng/Let-Us-Python-Book-/issues)
-* 📧 **Repository**: [Let-Us-Python-Book-](https://github.com/Joseph1997-eng/Let-Us-Python-Book-)
+* 🐛 **Issues**: [Open an issue](https://github.com/rose1996iv/PythonWithJoe/issues)
+* 📧 **Repository**: [PythonWithJoe](https://github.com/rose1996iv/PythonWithJoe)
 
 ## 📄 License
 

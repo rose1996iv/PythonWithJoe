@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
-[![Documentation](https://img.shields.io/badge/docs-deployed-brightgreen)](https://Joseph1997-eng.github.io/Let-Us-Python-Book-/)
+[![Documentation](https://img.shields.io/badge/docs-deployed-brightgreen)](https://rose1996iv.github.io/PythonWithJoe/)
 
 ## 📖 Overview
 
@@ -71,10 +71,8 @@ This repository is perfect for:
 
 1. **Clone the repository**
 
-    ```bash
-    git clone [https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git](https://github.com/Joseph1997-eng/Let-Us-Python-Book-.git)
-    cd Let-Us-Python-Book-
-    ```
+    git clone [https://github.com/rose1996iv/PythonWithJoe.git](https://github.com/rose1996iv/PythonWithJoe.git)
+    cd PythonWithJoe
 
 2. **Install dependencies**
 
@@ -104,7 +102,7 @@ This repository is perfect for:
 
 Prefer reading online? Visit our beautifully formatted documentation site:
 
-🌐 **[https://Joseph1997-eng.github.io/Let-Us-Python-Book-/](https://Joseph1997-eng.github.io/Let-Us-Python-Book-/)**
+🌐 **[https://rose1996iv.github.io/PythonWithJoe/](https://rose1996iv.github.io/PythonWithJoe/)**
 
 Or run the docs locally:
 
@@ -149,9 +147,9 @@ Your contributions make this resource better for everyone! We welcome:
 
 Have questions or feedback? We'd love to hear from you!
 
-* 🐛 **Issues**: [Open an issue](https://github.com/Joseph1997-eng/Let-Us-Python-Book-/issues)
+* 🐛 **Issues**: [Open an issue](https://github.com/rose1996iv/PythonWithJoe/issues)
 * 💬 **Discussions**: Share your learning journey
-* 📧 **Repository**: [Let-Us-Python-Book-](https://github.com/Joseph1997-eng/Let-Us-Python-Book-)
+* 📧 **Repository**: [PythonWithJoe](https://github.com/rose1996iv/PythonWithJoe)
 
 ## 📄 License
 
