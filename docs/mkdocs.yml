@@ -11,8 +11,8 @@ theme:
   name: material
   custom_dir: overrides
   language: en
-  logo: joseph.png
-  favicon: joseph.png
+  logo: Logo.png
+  favicon: Logo.png
   
   # Color Palette
   palette: 
