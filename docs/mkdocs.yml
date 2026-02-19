@@ -1,7 +1,7 @@
 site_name: Let Us Python Book
-site_url: https://Joseph1997-eng.github.io/Let-Us-Python-Book-/
-repo_url: https://github.com/Joseph1997-eng/Let-Us-Python-Book-
-repo_name: Let-Us-Python-Book-
+site_url: https://rose1996iv.github.io/PythonWithJoe/
+repo_url: https://github.com/rose1996iv/PythonWithJoe
+repo_name: PythonWithJoe
 site_description: Professional Python programming documentation with multilingual support
 site_author: Joseph
 copyright: Copyright &copy; 2026 Joseph
@@ -9,6 +9,7 @@ copyright: Copyright &copy; 2026 Joseph
 # Theme Configuration
 theme:
   name: material
+  custom_dir: overrides
   language: en
   logo: joseph.png
   favicon: joseph.png
@@ -125,8 +126,8 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Joseph1997-eng
-      name: Joseph's GitHub
+      link: https://github.com/rose1996iv
+      name: Joseph's GitHub (New)
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/robinson-joseph-61734a17a/
       name: Joseph's LinkedIn

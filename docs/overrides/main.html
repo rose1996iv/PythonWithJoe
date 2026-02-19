@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  <!-- Giscus Comments -->
+  {% if page.meta.comments != false %}
+    <hr>
+    <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
+    {% include "partials/comments.html" %}
+  {% endif %}
+{% endblock %}
