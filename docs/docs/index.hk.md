@@ -158,9 +158,9 @@ Na kan bomhnak nih hii midang caah ṭhatnak a chuahter deuh lai — kan lawm �
 
 Zawhnak na duh asiloah feedback na duh? Kan lawm hle!
 
-* � **Issues**: [Open an issue](https://github.com/Joseph1997-eng/Let-Us-Python-Book-/issues)
+* � **Issues**: [Open an issue](https://github.com/rose1996iv/PythonWithJoe/issues)
 * 💬 **Discussions**: Na cawnnak khualtlawnnak chimh
-* 📧 **Repository**: [Let-Us-Python-Book-](https://github.com/Joseph1997-eng/Let-Us-Python-Book-)
+* 📧 **Repository**: [Let-Us-Python-Book-](https://github.com/rose1996iv/Let-Us-Python-Book-)
 
 ---
 
@@ -177,3 +177,4 @@ Hi repository hi **MIT License** tang ah a um — LICENSE file zoh.
 ---
 
 🗓️ *Last Updated: January 3, 2026*
+
