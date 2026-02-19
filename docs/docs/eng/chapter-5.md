@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Decision Control Instructions</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -588,6 +588,7 @@ not ( a > 5 and c )
 - l. If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle is isosceles, equilateral, scalene or right angled triangle.
 
 ---
+
 
 
 

@@ -6,7 +6,7 @@
     <h1 class="chapter-title">NumPy Library</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -705,6 +705,7 @@ print(e)
 | (e) `print(a1 > a2)` | 5. တန်ဖိုးတစ်ခုတည်းနှင့် နှိုင်းယှဉ်ခြင်း (Scalar comparison) |
 | (f) `print(a[1:3][3:6])` | 6. Bitwise လုပ်ဆောင်ချက် |
 | (g) `a2 = invert(a1)` | 7. Inversion ပြုလုပ်ခြင်း / Slicing ပြုလုပ်ခြင်း |
+
 
 
 

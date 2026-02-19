@@ -6,7 +6,7 @@
     <h1 class="chapter-title">NumPy Library</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -765,6 +765,7 @@ a12 = a1 ** 2
 |e. `print(a1 > a2)`|5. Comparison with one value|
 |f. `print(a[1:3][3:6])`|  6. Bitwise Operation|
 |g. `a2 = invert(a1)`|7. Slicing Operation|
+
 
 
 

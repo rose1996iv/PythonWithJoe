@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Python Basics</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -390,7 +390,7 @@ Container types typically refer to multiple values stored together Examples of d
 # list is a indexed collection of similar/dissimilar entities
 [10, 20, 30, 20, 30, 40, 50, 10], ['She', 'sold', 10, 'shells'’]
 # tuple is an immutable collection
-('Rosanna', 34, 4500.55), ('Let Us Python', 350, 195.00)
+('Rosanna', 34, 4500.55), ('Python With Joe', 350, 195.00)
 # set is a collection of unique values
 {10, 20, 30, 40}, {'Rosanna', 34, 45000}
 # dict is a collection of key-value pairs, with unique key enclosed in 
@@ -404,7 +404,7 @@ a **key**. This is shown in the following program:
 
 ```python title="Accessing values in container types"
 lst = [10, 20, 30, 20, 30, 40, 50, 10]
-tpl = ('Let Us Python', 350, 195.00)
+tpl = ('Python With Joe', 350, 195.00)
 s = {10, 20, 30, 40}
 dct = {'ME101' : 'SOM', 'EE101' : 'Electronics'}
 print(lst[0], tpl[2]) # prints 10 195.0
@@ -992,6 +992,7 @@ e. `math.modf(3.1415)`
 
 
 ---
+
 
 
 

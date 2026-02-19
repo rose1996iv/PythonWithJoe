@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Python Basics</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -390,7 +390,7 @@ print(dir(math))
 [10, 20, 30, 20, 30, 40, 50, 10], ['She', 'sold', 10, 'shells']
 
 # tuple cu thlen khawh lo mi (immutable) hlawm a si
-('Rosanna', 34, 4500.55), ('Let Us Python', 350, 195.00)
+('Rosanna', 34, 4500.55), ('Python With Joe', 350, 195.00)
 
 # set cu values aa dang cio (unique) lawng chiah ṭi nak a si
 {10, 20, 30, 40}, {'Rosanna', 34, 45000}
@@ -403,7 +403,7 @@ print(dir(math))
 
 ```python title="Accessing values in container types"
 lst = [10, 20, 30, 20, 30, 40, 50, 10]
-tpl = ('Let Us Python', 350, 195.00)
+tpl = ('Python With Joe', 350, 195.00)
 s = {10, 20, 30, 40}
 dct = {'ME101' : 'SOM', 'EE101' : 'Electronics'}
 print(lst[0], tpl[2]) # 10 195.0 a print/langhter
@@ -965,6 +965,7 @@ $$ a^2 = b^2 + c^2 - 2bc.cos A, b^2 = a^2 + c^2 - 2ac.cos B, c^2 = a^2 + b^2 - 2
 
 
 ---
+
 
 
 

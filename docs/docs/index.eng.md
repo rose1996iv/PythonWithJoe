@@ -114,7 +114,7 @@ Then open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 
 ## 📘 About the Book
 
-**"Let Us Python"** is a comprehensive guide that has helped thousands of learners master Python programming. The 5th Edition covers modern Python practices and includes:
+**"Python With Joe"** is a comprehensive guide that has helped thousands of learners master Python programming. The 5th Edition covers modern Python practices and includes:
 
 * Clear, beginner-friendly explanations
 * Progressive difficulty levels
@@ -164,4 +164,5 @@ This repository is licensed under the **MIT License** - see the LICENSE file for
 ---
 
 *Last Updated: December 11, 2025*
+
 

@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Decision Control Instructions</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -708,6 +708,7 @@ not ( a > 5 and c )
 **l.** တြိဂံတစ်ခု၏ အနား (Side) ၃ ခုကို Keyboard မှ Input အဖြစ် ရိုက်ထည့်ပါ။ ထိုတြိဂံသည် **နှစ်နားညီ (Isosceles)**၊ **သုံးနားညီ (Equilateral)**၊ **နားမညီ (Scalene)** သို့မဟုတ် **ထောင့်မှန် (Right angled)** တြိဂံ၊ မည်သည့်အမျိုးအစားဖြစ်ကြောင်း စစ်ဆေးပေးမယ့် Program တစ်ပုဒ် ရေးပါ။
 
 ---
+
 
 
 

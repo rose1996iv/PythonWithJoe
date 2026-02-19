@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Strings</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -52,9 +52,9 @@ Raw String: String hmailam te ah r kan chiah ahcun raw string (string a si ning 
 
 ```python title="Escape vs Raw String Example"
 # (a) Quotes pawl thianh dingah Backslash hman
-msg_escape = 'He said, \'Let Us Python.\''
+msg_escape = 'He said, \'Python With Joe.\''
 print(msg_escape) 
-# Output: He said, 'Let Us Python.'
+# Output: He said, 'Python With Joe.'
 
 # (b) Raw String (r prefix) hman
 # Backslash tampi a um tikah hman a ṭha (Tahchunhnak: File paths asiloah regex)
@@ -413,7 +413,7 @@ Question: String sawhsawh le ca-tluan tampi (multi-line) ummi string serning pia
 msg1 = 'Hoopla' 
 print(msg1)
 # strings with special characters
-msg2 = 'He said, \'Let Us Python\'.'
+msg2 = 'He said, \'Python With Joe\'.'
 file1 = 'C:\\temp\\newfile'
 file2 = r'C:\temp\newfile' # raw string - prepend r
 print(msg2)
@@ -458,7 +458,7 @@ print(max('Hoopla'))
 
 ```python title="Output"
 Hoopla
-He said, 'Let Us Python'.
+He said, 'Python With Joe'.
 C:\temp\newfile
 C:\temp\newfile
 What is this life if full of care... We have no time to stand and stare
@@ -789,7 +789,7 @@ f. A tanglei string chung i biafang pakhat cio he riantuan kan duh ahcun, zeitin
 
 'The difference between stupidity and genius is that genius has its limits'
 
-g. A tanglei string `He said, "Let Us Python"` khumh (store) ning lam phun hnih langhter tuah.
+g. A tanglei string `He said, "Python With Joe"` khumh (store) ning lam phun hnih langhter tuah.
 
 h. A tanglei code (code snippet) i a phichuak (output) hi zei dah a si lai?
 ```python title="Program"
@@ -843,6 +843,7 @@ ch = msg[-0]
 
 
 ---
+
 
 
 

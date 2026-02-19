@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Console Input/Output</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -520,6 +520,7 @@ e = 34.67
     | **f — 4** | (`<` symbol cu Left Justify/Align a si) |
 
 ---
+
 
 
 

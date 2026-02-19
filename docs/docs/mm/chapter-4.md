@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Strings</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -53,9 +53,9 @@ String တစ်ခုထဲမှာ `'` ၊ `"` (သို့မဟုတ်) 
 
 ```python title="Escape vs Raw String Example"
 # (a) Quotes တွေကို escape လုပ်ဖို့ Backslash သုံးခြင်း
-msg_escape = 'He said, \'Let Us Python.\''
+msg_escape = 'He said, \'Python With Joe.\''
 print(msg_escape) 
-# Output: He said, 'Let Us Python.'
+# Output: He said, 'Python With Joe.'
 
 # (b) Raw String (r prefix) ကို သုံးခြင်း
 # Backslashes တွေ အများကြီးပါတဲ့အခါ (ဥပမာ - file paths သို့မဟုတ် regex) အသုံးဝင်ပါတယ်
@@ -337,7 +337,7 @@ msg1 = 'Hoopla'
 print(msg1)
 
 # Special characters ပါသော String များ
-msg2 = 'He said, \'Let Us Python\'.' # Quote ပါနေလို့ \ ခံပြီး Escape လုပ်ထားပါတယ်
+msg2 = 'He said, \'Python With Joe\'.' # Quote ပါနေလို့ \ ခံပြီး Escape လုပ်ထားပါတယ်
 file1 = 'C:\\temp\\newfile' # Backslash အတွက် \\ သုံးထားပါတယ်
 file2 = r'C:\temp\newfile'  # Raw string - ရှေ့မှ r ခံလိုက်ရင် \ ကို Escape လုပ်စရာမလိုပါ
 print(msg2)
@@ -389,7 +389,7 @@ print(max('Hoopla')) # ASCII တန်ဖိုး အကြီးဆုံး�
 
 ```python title="Output"
 Hoopla
-He said, 'Let Us Python'.
+He said, 'Python With Joe'.
 C:\temp\newfile
 C:\temp\newfile
 What is this life if full of care... We have no time to stand and stare
@@ -723,7 +723,7 @@ e. Python တွင် **Raw string** (`r'...'`) ကို အသုံးပြ
 f. အောက်ဖော်ပြပါ String အတွင်းရှိ စကားလုံး (Word) များကို တစ်လုံးချင်းစီ သီးခြားခွဲထုတ်လိုပါက မည်သို့ ပြုလုပ်မည်နည်း။
 `'The difference between stupidity and genius is that genius has its limits'`
 
-g. `He said, "Let Us Python".` ဆိုသော စာသားကို **String** တစ်ခုအဖြစ် သိမ်းဆည်းရန် နည်းလမ်း (၂) ခုကို ဖော်ပြပါ။
+g. `He said, "Python With Joe".` ဆိုသော စာသားကို **String** တစ်ခုအဖြစ် သိမ်းဆည်းရန် နည်းလမ်း (၂) ခုကို ဖော်ပြပါ။
 
 h. အောက်ပါ **Code snippet** ၏ Output သည် မည်သို့ဖြစ်မည်နည်း။
 
@@ -787,6 +787,7 @@ ch = msg[-0]  # Note: -0 is same as 0 in Python
 
 
 ---
+
 
 
 

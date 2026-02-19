@@ -1,4 +1,4 @@
-# Let Us Python 🐍 - Your Journey to Python Mastery
+# Python With Joe 🐍 - Your Journey to Python Mastery
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
@@ -6,7 +6,7 @@
 
 ## 📖 Overview
 
-Welcome to **Let Us Python**, a comprehensive learning resource carefully curated and presented by **Joseph**, a **DataCamp Python Data Associate Certified** professional and a passionate student at **Graphic Era Hill University**, specializing in **AI, Cyber Security, and Data Science**.
+Welcome to **Python With Joe**, a comprehensive learning resource carefully curated and presented by **Joseph**, a **DataCamp Python Data Associate Certified** professional and a passionate student at **Graphic Era Hill University**, specializing in **AI, Cyber Security, and Data Science**.
 
 This repository is designed to provide an accessible, structured, and engaging learning path for anyone seeking to master Python programming. Whether you're taking your first steps in programming or looking to deepen your Python expertise, this resource offers interactive notebooks, practical examples, and clear explanations that make learning both effective and enjoyable.
 
@@ -140,7 +140,7 @@ Then open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 
 ## 📘 About the Resources
 
-**"Let Us Python"** is a comprehensive guide that has helped thousands of learners master Python programming. The 5th Edition covers modern Python practices and includes:
+**"Python With Joe"** is a comprehensive guide that has helped thousands of learners master Python programming. The 5th Edition covers modern Python practices and includes:
 
 * Clear, beginner-friendly explanations
 * Progressive difficulty levels
@@ -183,7 +183,7 @@ This repository is licensed under the **MIT License** - see the LICENSE file for
 
 ## ⚠️ Disclaimer
 
-This repository contains educational materials for learning purposes only. The content is curated from various resources including "Let Us Python" (5th Edition) by Yashavant Kanetkar and Aditya Kanetkar, DataCamp courses, and GoalKicker Python notes. For complete and original content, please refer to the respective official sources.
+This repository contains educational materials for learning purposes only. The content is curated from various resources including "Python With Joe" (5th Edition) by Yashavant Kanetkar and Aditya Kanetkar, DataCamp courses, and GoalKicker Python notes. For complete and original content, please refer to the respective official sources.
 
 ---
 
@@ -194,3 +194,4 @@ This repository contains educational materials for learning purposes only. The c
 ---
 
 *Last Updated: January 3, 2026*
+

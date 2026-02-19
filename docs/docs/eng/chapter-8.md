@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Lists</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -774,6 +774,7 @@ j. A list contains 10 numbers. Write a program to eliminate all duplicates from 
 k. Write a program to find the mean, median and mode of a list of 10 numbers. 
 
 ---
+
 
 
 

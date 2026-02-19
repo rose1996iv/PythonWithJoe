@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Getting Started</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -262,6 +262,7 @@ print(sys.version)
   * **A Phi:** **True** (Hmaan).
 
 ---
+
 
 
 

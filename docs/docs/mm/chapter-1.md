@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Introduction To Python</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -263,6 +263,7 @@ def fibo(n):
 - (b) **Procedural programming paradigm** ကို ________ **programming model** ဟုလည်း ခေါ်သည်။
 - (c) Python ကို _________ က ဖန်တီးခဲ့သည်။
 - (d) Python **Programmers** များကို _________ ဟု ခေါ်လေ့ရှိသည်။
+
 
 
 

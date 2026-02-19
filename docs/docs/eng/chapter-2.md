@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Getting Started</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -234,6 +234,7 @@
 * e. Windows system doesn't contain Python and it needs to be separately installed.
 * f. PYthon prgorams can be built using **IDLE**, **Netbeans**, **PyCharm** and **Visual Studio Code**.
 * g. Thrid-party Python packages are distributed using **PyPI**.
+
 
 
 

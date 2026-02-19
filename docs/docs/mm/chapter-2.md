@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Getting Started</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -278,6 +278,7 @@ f. **Python programs** များကို **IDLE**၊ **NetBeans**၊ **PyCha
 g. **Third-party Python packages** များကို **PyPI** အသုံးပြု၍ ဖြန့်ဝေသည်။
 
 * Ans -> **True**
+
 
 
 

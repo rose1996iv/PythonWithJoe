@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Lists</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -925,6 +925,7 @@ List pakhat chungah namba 10 a um. List chung i aa khatmi (duplicates) vialte hl
 
 **k. Mean, Median, le Mode kawlning**
 Namba 10 a ummi list pakhat chungah a tlangpi (mean), a laifang (median), le a chuak tam bik (mode) kawltu program tial u.
+
 
 
 

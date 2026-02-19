@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Introduction To Python</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -266,6 +266,7 @@ This model is popularly used for programming GUI applications containing element
 - b. Procedural programming paradigm is also known as ________ programming model.
 - c. Python was created by _________.
 - d. Python programmers are often called _________.
+
 
 
 

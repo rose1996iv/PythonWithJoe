@@ -121,7 +121,7 @@ Browser ah: 🔗 [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ## 📘 Cabu Konglam
 
-**"Let Us Python"** cu mi thong tampi Python programming thiam dingin a bawmtu cabu ṭha a si. 5th Edition ah tu chan Python hmannak a tel i —
+**"Python With Joe"** cu mi thong tampi Python programming thiam dingin a bawmtu cabu ṭha a si. 5th Edition ah tu chan Python hmannak a tel i —
 
 * A hramthawk mi hna caah fianternak ṭha
 * Harnak level a dotdot in a um
@@ -177,4 +177,5 @@ Hi repository hi **MIT License** tang ah a um — LICENSE file zoh.
 ---
 
 🗓️ *Last Updated: January 3, 2026*
+
 

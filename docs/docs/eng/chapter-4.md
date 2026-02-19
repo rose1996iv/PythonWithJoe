@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Strings</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -51,9 +51,9 @@ If there are characters like `'`, `"` or `\` within a string, they can be retain
 
 ```python title="Escape vs Raw String Example"
 # (a) Using Backslash to escape quotes
-msg_escape = 'He said, \'Let Us Python.\''
+msg_escape = 'He said, \'Python With Joe.\''
 print(msg_escape) 
-# Output: He said, 'Let Us Python.'
+# Output: He said, 'Python With Joe.'
 
 # (b) Using Raw String (r prefix)
 # Useful when you have many backslashes (e.g., file paths or regex)
@@ -306,7 +306,7 @@ functions `len()`, `min()`, `max()` on a string.
 msg1 = 'Hoopla' 
 print(msg1)
 # strings with special characters
-msg2 = 'He said, \'Let Us Python\'.'
+msg2 = 'He said, \'Python With Joe\'.'
 file1 = 'C:\\temp\\newfile'
 file2 = r'C:\temp\newfile' # raw string - prepend r
 print(msg2)
@@ -351,7 +351,7 @@ print(max('Hoopla'))
 
 ```python title="Output"
 Hoopla
-He said, 'Let Us Python'.
+He said, 'Python With Joe'.
 C:\temp\newfile
 C:\temp\newfile
 What is this life if full of care... We have no time to stand and stare
@@ -686,7 +686,7 @@ how will you separate them out:
 'The difference between stupidity and genius is that genius has its 
 limits'
 
-g. Mention two ways to store a string: He said, "Let Us Python".
+g. Mention two ways to store a string: He said, "Python With Joe".
 
 h. What will be the output of following code snippet?
 ```python title="Program"
@@ -741,6 +741,7 @@ o. `msg[0:-2]`|Slices from start up to the last 2 characters.|Keep yourself wa|1
 
 
 ---
+
 
 
 

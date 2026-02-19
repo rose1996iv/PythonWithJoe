@@ -6,7 +6,7 @@
     <h1 class="chapter-title">Decision Control Instructions</h1>
   </div>
   <div class="chapter-logo">
-    <img src="/PythonWithJoe/Logo.png" alt="Let Us Python Book Logo">
+    <img src="/PythonWithJoe/Logo.png" alt="Python With Joe Book Logo">
   </div>
   <div class="chapter-social-links">
     <a href="https://github.com/rose1996iv" target="_blank" class="social-icon" title="GitHub">
@@ -728,6 +728,7 @@ not ( a > 5 and c )
 * l. Triangle i a tlang/kap pathum keyboard in ṭial lut a si, cu triangle cu Isosceles (tlang 2 aa khat), Equilateral (tlang 3 aa khat), Scalene (tlang 3 aa khat lo), asiloah Right angled (kil 90 a ngeimi) triangle a si maw ti zohnak program ṭial.
 
 ---
+
 
 
 
