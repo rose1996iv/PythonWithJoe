@@ -444,7 +444,7 @@ si = p * n * r / 100 # calculate simple interest (simple interest tuaknak)
 
 ```python title="Multi-line comments should be written in a pair of ''' or \"\"\"."
 ''' Additional program: Calculate bonus to be paid
-URL: [https://github.com/rose1996iv/Let-Us-Python-Book-](https://github.com/rose1996iv/Let-Us-Python-Book-) ([https://github.com/rose1996iv/Let-Us-Python-Book-](https://github.com/rose1996iv/Let-Us-Python-Book-))
+URL: [https://github.com/rose1996iv/PythonWithJoe](https://github.com/rose1996iv/PythonWithJoe) ([https://github.com/rose1996iv/PythonWithJoe](https://github.com/rose1996iv/PythonWithJoe))
 Author: Joseph, Date: 7 Dec 2025 '''
 ```
 
@@ -965,6 +965,7 @@ $$ a^2 = b^2 + c^2 - 2bc.cos A, b^2 = a^2 + c^2 - 2ac.cos B, c^2 = a^2 + b^2 - 2
 
 
 ---
+
 
 
 

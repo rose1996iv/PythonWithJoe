@@ -135,7 +135,7 @@ Browser ah:
 
 ## 📘 Cabu Konglam
 
-**"Let Us Python"** cu mi thong tampi Python programming thiam dingin a bawmtu cabu ṭha a si. 5th Edition ah tu chan Python hmannak thar hna a tel:
+**"Python With Joe"** cu mi thong tampi Python programming thiam dingin a bawmtu cabu ṭha a si. 5th Edition ah tu chan Python hmannak thar hna a tel:
 
 * A hramthawk mi hna caah fianternak ṭha.
 * Harnak level a dotdot in a kal.
@@ -176,7 +176,7 @@ Biahal duh asiloah feedback pek na duh ahcun kan lawm hle!
 
 * 🛠️ **Issues**: https://github.com/rose1996iv/PythonWithJoe/issues
 * 💬 **Discussions**: Na cawnnak khualtlawnnak chungah lungthin tlangtlennak.
-* 📧 **Repository**: https://github.com/rose1996iv/Let-Us-Python-Book-
+* 📧 **Repository**: https://github.com/rose1996iv/PythonWithJoe
 
 ---
 
